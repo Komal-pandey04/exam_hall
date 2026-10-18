@@ -1,0 +1,2177 @@
+[
+ {
+  "chapter": "Management Accounting",
+  "title": "Meaning, Importance, Scope, Characteristics and Limitations",
+  "questions": [
+   {
+    "source": "UP PGT 2016",
+    "question": "Management Accounting deals with",
+    "options": [
+     "Quantitative information",
+     "Qualitative information",
+     "Both the (A) and (B)",
+     "None of these"
+    ],
+    "correctIndex": 2,
+    "explanation": "Management accounting is concerned with both quantitative and qualitative information. It places more emphasis on relative and subjective information, and its substantial nature is that it provides necessary information to management, but the decisions are taken by the management on the basis of this information."
+   },
+   {
+    "source": "UKPSC Asst. Prof. (GDC) 2017",
+    "question": "Given: Cash in hand ₹10,000; Debtor ₹20,000; Bills receivable ₹5,000; Plant ₹5,000; Creditor ₹15,000. Net Working Capital will be",
+    "options": [
+     "₹25,000",
+     "₹20,000",
+     "₹40,000",
+     "None of these"
+    ],
+    "correctIndex": 1,
+    "explanation": "Net Working Capital = Total Current Assets − Total Current Liabilities = (10,000 + 20,000 + 5,000) − 15,000 = 35,000 − 15,000 = ₹20,000."
+   },
+   {
+    "source": "UKPSC Asst. Prof. (GDC) 2017",
+    "question": "The Gross Working Capital means",
+    "options": [
+     "Total Current Assets + Total Current Liabilities",
+     "Total Current Assets − Total Current Liabilities",
+     "Total of Current Assets",
+     "None of these"
+    ],
+    "correctIndex": 2,
+    "explanation": "Gross working capital is equal to the sum of total current assets. Net working capital is obtained after deducting total current liabilities from total current assets."
+   },
+   {
+    "source": "UKPSC Asst. Prof. (GDC) 2017",
+    "question": "Accounting for price level changes is related to",
+    "options": [
+     "Cost Accounting",
+     "Financial Accounting",
+     "Management Accounting",
+     "Inflation Accounting"
+    ],
+    "correctIndex": 3,
+    "explanation": "Accounting for changes in price levels is related to inflation accounting, which includes accounting models designed to correct the problem resulting from historical cost accounting in the presence of high inflation and hyperinflation."
+   },
+   {
+    "source": "UGC NET Exam (Paper III) July 2016",
+    "question": "Insufficient working capital may result into which combination of the following? I. Failures to adapt to changes. II. Enhancement in credit-worthiness of the firm. III. Reduced availability of trade and cash discounts. IV. Reduced volume of sales.",
+    "options": [
+     "I, II, III, IV",
+     "I, III, IV",
+     "I, II, IV",
+     "I, II, III"
+    ],
+    "correctIndex": 1,
+    "explanation": "Failures to adopt to changes, reduced availability of trade and cash discounts and reduced volume of sales may be the result of insufficient working capital."
+   },
+   {
+    "source": "UGC NET Exam (Paper III) June 2015",
+    "question": "Study the following transactions: (a) Raising of short term loans (b) Goods purchased for cash (c) Payment of bonus in the form of shares (d) Issue of shares in lieu of raw materials. Flow of funds is:",
+    "options": [
+     "(a), (b), (c) and (d)",
+     "(b), (c) and (d)",
+     "(c) and (d)",
+     "Only (d)"
+    ],
+    "correctIndex": 3,
+    "explanation": "Fund flow occurs when there is a change in working capital, i.e. an increase in it. There is no effect on working capital in options (a), (b) and (c), whereas in option (d) the working capital is increasing."
+   },
+   {
+    "source": "PGT 2011",
+    "question": "What is the use of managerial accounting?",
+    "options": [
+     "Mandatory",
+     "Optional",
+     "Mortgage",
+     "None of these"
+    ],
+    "correctIndex": 1,
+    "explanation": "Management accounting deals with the provision of necessary accounting information to people within the organisation to enable them in decision making, planning and controlling business operations. It is a practice of identifying, measuring, analyzing, interpreting and communicating financial information to managers for the pursuit of an organization's goals."
+   },
+   {
+    "source": "PGT 2011",
+    "question": "Functions of managerial accounting and cost accounting interacting with each other–",
+    "options": [
+     "Complementary nature",
+     "Antagonistic in nature",
+     "Neutral form of influence",
+     "Statutory"
+    ],
+    "correctIndex": 0,
+    "explanation": "The functions of managerial accounting and cost accounting are complementary in nature to each other. On the basis of information and data received from cost accounting, a manager analyzes and interprets through various techniques of management accounting, using the findings of costing efforts made to reduce the total cost and cost per unit. Clearly both are helpful to each other."
+   },
+   {
+    "source": "PGT 2011",
+    "question": "Which one of the following is not included in the classification of flow?",
+    "options": [
+     "Vertical",
+     "Horizontal",
+     "Drawing",
+     "Nonverbal"
+    ],
+    "correctIndex": 3,
+    "explanation": "Generally, the classification of flows means the method of presentation of information obtained from the financial details. Vertical, horizontal and diagrammatic divisions are used to classify flows."
+   },
+   {
+    "source": "PGT 2011",
+    "question": "What is the another name of managerial accounting?",
+    "options": [
+     "Cost accounting",
+     "Traditional accounting",
+     "Decision accounting",
+     "None of these"
+    ],
+    "correctIndex": 2,
+    "explanation": "Managerial accounting is also known as decision making accounting. A manager studies the information obtained from financial and cost accounting using various tools of management accounting and, on the basis of the findings, takes decisions for the progressive development of the business."
+   },
+   {
+    "source": "PGT 2013",
+    "question": "The following shall not be taken into account in the decision to manufacture or buy",
+    "options": [
+     "Effective utilization of manufacturing capacity",
+     "Variable cost of products",
+     "Income from rent of the effective areas used by the production sector",
+     "Fixed cost unchanged"
+    ],
+    "correctIndex": 3,
+    "explanation": "Unchanged fixed cost is not taken into account in a manufacture-or-buy decision. It remains constant even as the production quantity increases or decreases, so it has no effect on the decision."
+   },
+   {
+    "source": "PGT 2013",
+    "question": "Business means",
+    "options": [
+     "Commerce",
+     "Industry and commerce",
+     "Trade and commerce",
+     "Buying and selling of goods"
+    ],
+    "correctIndex": 1,
+    "explanation": "Work done for the purpose of earning profits is called business, i.e. buying and selling of goods and services for the purpose of earning profit. Business is classified into two parts: industry and commerce. Commerce is further divided into trade and trade-related activities (storage, transportation, marketing, messenger)."
+   },
+   {
+    "source": "PGT 2009",
+    "question": "Managerial accounting is related to which of the following?",
+    "options": [
+     "Presentation of accounting data",
+     "Recording of accounting data",
+     "Recording the cost data",
+     "All of these"
+    ],
+    "correctIndex": 3,
+    "explanation": "Managerial accounting has emerged to perform the functions of management efficiently. It presents and records the information and data obtained from accounting as well as records the cost figures."
+   },
+   {
+    "source": "PGT 2009",
+    "question": "Horizontal analysis is known as–",
+    "options": [
+     "Dynamic analysis",
+     "Structural analysis",
+     "Static analysis",
+     "None of these"
+    ],
+    "correctIndex": 0,
+    "explanation": "To analyze the comparative financial statements the method of horizontal analysis is used. It is also known as dynamic analysis. Under this method financial statements for more than one year are analyzed."
+   },
+   {
+    "source": "G.I.C. 2012",
+    "question": "Managerial accounting is",
+    "options": [
+     "Making accounts",
+     "Management of accounts",
+     "Presentation of accounting information",
+     "Classification of accounts"
+    ],
+    "correctIndex": 2,
+    "explanation": "Managerial accounting is mainly concerned with the presentation of accounting information. Different types of information are studied and analyzed, and important information is sent to management, which is helpful in future policy making."
+   },
+   {
+    "source": "U.P.P.C.S. (Pre.) 1996",
+    "question": "Which one of the following statements is not correct?",
+    "options": [
+     "Net capital employed equals the fixed assets",
+     "Expenses ratios reflect the profit earning capacity of the concern",
+     "Low sales in relation to fixed assets means under-utilization of fixed assets",
+     "The analysis for short-term solvency of the company attempts to focus attention on the cash generation power of the company"
+    ],
+    "correctIndex": 0,
+    "explanation": "The statement that net capital employed equals the fixed assets is not correct. Net Capital Employed = Total Assets − Current Liabilities = Equity + Non-Current Liabilities."
+   },
+   {
+    "source": "U.P.P.C.S. (Pre.) 1999",
+    "question": "Cash from operations is equal to:",
+    "options": [
+     "Net profit + increase in current assets",
+     "Net profit + decrease in current assets",
+     "Profit from operation ± Adjustment of increase and decrease in current assets and liabilities",
+     "Fund from operation ± Adjustment of increase and decrease in current assets and current liabilities"
+    ],
+    "correctIndex": 2,
+    "explanation": "Cash from operation = Profit from operation ± Adjustment of increase and decrease in current assets and liabilities."
+   },
+   {
+    "source": "U.P.P.C.S. (Pre.) 2005",
+    "question": "Total capital employed is equal to",
+    "options": [
+     "Fixed Assets",
+     "Fixed Assets + Net Working Capital",
+     "Total Assets (including accumulated depreciation)",
+     "Net Worth"
+    ],
+    "correctIndex": 1,
+    "explanation": "Total capital employed = Fixed assets + Working capital = Fixed assets + (Current assets − Current liabilities)."
+   },
+   {
+    "source": "U.P.P.C.S. (Pre.) 2007",
+    "question": "Horizontal analysis is",
+    "options": [
+     "Dynamic analysis",
+     "Average analysis",
+     "Trend analysis",
+     "Static analysis"
+    ],
+    "correctIndex": 2,
+    "explanation": "Horizontal analysis is related to trend analysis. The basic trend of regular change in a time series over a long period of time is called trend. The slope will be either a straight line (vertical or horizontal) or concave."
+   },
+   {
+    "source": "U.P.P.C.S. (Pre.) 2009",
+    "question": "If profits are 1/4 of cost, what is the share of profit in sales?",
+    "options": [
+     "1/3",
+     "1/4",
+     "1/5",
+     "1/6"
+    ],
+    "correctIndex": 2,
+    "explanation": "If cost = u, then profit = u/4, so sales = u + u/4 = 5u/4. Profit share in sales = (u/4) ÷ (5u/4) × 100 = 20% = 1/5."
+   },
+   {
+    "source": "U.P.P.C.S. (Pre.) 2009",
+    "question": "Higher the ratio, lower the profitability is applicable to–",
+    "options": [
+     "Gross Profit Ratio",
+     "Net Profit Ratio",
+     "Operating Ratio",
+     "Return on Investment"
+    ],
+    "correctIndex": 2,
+    "explanation": "The operating ratio shows the relationship between operating costs and net sales: (Cost of sales + all operating expenses) × 100 ÷ Net sales. The higher the ratio, the less will be the profit."
+   }
+  ]
+ },
+ {
+  "chapter": "Management Accounting",
+  "title": "Ratio Analysis",
+  "questions": [
+   {
+    "source": "UP Higher 2021",
+    "question": "If the current ratio of a company is 2:1, which of the following transactions would improve the ratio?",
+    "options": [
+     "Issue of bonus shares",
+     "Issue of warrant",
+     "Purchase of stock of goods for cash",
+     "Payment of current liabilities"
+    ],
+    "correctIndex": 3,
+    "explanation": "If the current ratio is 2:1 and the company pays its current liabilities, the current ratio improves. E.g. Current assets 2,00,000 and current liabilities 1,00,000; if 50,000 of current liabilities is paid: (2,00,000 − 50,000) ÷ (1,00,000 − 50,000) = 3:1."
+   },
+   {
+    "source": "UP Higher 2021",
+    "question": "Match List-I with List-II and select the correct answer using the codes given below. List-I: (1) Financial Leverage (2) Quick Ratio (3) Stock Turnover (4) Margin of Sales. List-II: (i) Efficiency (ii) Profitability (iii) Risk (iv) Liquidity",
+    "options": [
+     "(1)-(iii) (2)-(iv) (3)-(i) (4)-(ii)",
+     "(1)-(iv) (2)-(iii) (3)-(ii) (4)-(i)",
+     "(1)-(iv) (2)-(iii) (3)-(i) (4)-(ii)",
+     "(1)-(i) (2)-(ii) (3)-(iii) (4)-(iv)"
+    ],
+    "correctIndex": 0,
+    "explanation": "Financial leverage – Risk; Quick ratio – Liquidity; Stock turnover – Efficiency; Margin of sales – Profitability."
+   },
+   {
+    "source": "UP PGT 2016",
+    "question": "The most precise test of liquidity is",
+    "options": [
+     "Quick ratio",
+     "Current ratio",
+     "Absolute liquid ratio",
+     "None of the above"
+    ],
+    "correctIndex": 2,
+    "explanation": "The most precise test of liquidity is the absolute liquid ratio. It expresses the ratio between liquid assets and liquid liabilities. Absolute liquid ratio = (Cash in hand + Cash at bank + Marketable securities) ÷ Current liabilities. The ideal absolute liquid ratio is 0.5:1."
+   },
+   {
+    "source": "UKPSC Asst. Prof. (GDC) 2017",
+    "question": "If the face value of share is ₹10, earning per share is ₹4 and dividend per share is ₹2, then dividend payout ratio will be",
+    "options": [
+     "20%",
+     "40%",
+     "25%",
+     "50%"
+    ],
+    "correctIndex": 3,
+    "explanation": "Dividend payout ratio = Dividend per share ÷ Earning per share × 100 = 2 ÷ 4 × 100 = 50%."
+   },
+   {
+    "source": "UGC NET Exam (Paper III) June 2014",
+    "question": "If debt is ₹220, cash balance is ₹20 and equity is ₹300, then the gearing ratio is",
+    "options": [
+     "20%",
+     "40%",
+     "50%",
+     "30%"
+    ],
+    "correctIndex": 1,
+    "explanation": "Gearing ratio = Net debt ÷ (Net debt + Equity). Net debt = 220 − 20 = 200. Gearing = 200 ÷ (200 + 300) × 100 = 40%."
+   },
+   {
+    "source": "PGT 2011",
+    "question": "Capital structure ratio is the ratio of",
+    "options": [
+     "Equity : Preference",
+     "Equity : Reserve",
+     "Equity : Debt",
+     "Long term debt : Short term debt"
+    ],
+    "correctIndex": 2,
+    "explanation": "Capital structure ratio is also known as debt-equity or debt capital ratio. It expresses the ratio between equity share capital and debt capital existing in the business."
+   },
+   {
+    "source": "UGC NET Exam (Paper III) Dec 2015",
+    "question": "Match the items of List-I with those of List-II and indicate the correct code. List-I: (A) Debtors Turnover Ratio (B) Proprietary Ratio (C) Operating Ratio (D) Acid Test Ratio. List-II: (i) Solvency Ratio (ii) Liquidity Ratio (iii) Activity Ratio (iv) Profitability Ratio. Codes (A)(B)(C)(D)",
+    "options": [
+     "(ii) (iv) (iii) (i)",
+     "(iii) (ii) (i) (iv)",
+     "(iii) (i) (iv) (ii)",
+     "(iv) (iii) (ii) (i)"
+    ],
+    "correctIndex": 2,
+    "explanation": "Debtors turnover ratio – Activity ratio; Proprietary ratio – Solvency ratio; Operating ratio – Profitability ratio; Acid-test ratio – Liquidity ratio."
+   },
+   {
+    "source": "UPPSC GIC 2021",
+    "question": "Assertion (A): Gross profit ratio is calculated on the basis of net sales. Reason (R): Gross profit ratio measures overall profitability of a concern. Choose the correct answer.",
+    "options": [
+     "Both (A) and (R) are true and (R) is correct explanation of (A)",
+     "Both (A) and (R) are true but (R) is not the correct explanation of (A)",
+     "(A) is true but (R) is false",
+     "(A) is false but (R) is true"
+    ],
+    "correctIndex": 2,
+    "explanation": "Gross profit ratio is calculated on the basis of net sales, so (A) is correct. However (R) is incorrect, as the net profit ratio measures the overall profitability of a concern."
+   },
+   {
+    "source": "UPPSC GIC 2021",
+    "question": "Net sales for a period is Rs. 6,00,000; cost of goods sold is Rs. 3,10,000 and operating expenses Rs. 80,000. The operating ratio will be–",
+    "options": [
+     "60%",
+     "65%",
+     "66.23%",
+     "62%"
+    ],
+    "correctIndex": 1,
+    "explanation": "Operating ratio = (COGS + Operating expenses) ÷ Net sales = (3,10,000 + 80,000) ÷ 6,00,000 = 3,90,000 ÷ 6,00,000 = 65%."
+   },
+   {
+    "source": "UPPSC GIC 2021",
+    "question": "Which of the following is not correctly matched? (Class – Ratio)",
+    "options": [
+     "Profitability – Operating Ratio",
+     "Activity – Proprietary Ratio",
+     "Liquidity – Current Ratio",
+     "Long term Solvency – Debt Equity Ratio"
+    ],
+    "correctIndex": 1,
+    "explanation": "Activity ratios are the stock turnover, debtors turnover and creditors turnover ratios. The proprietary ratio is a long-term solvency ratio, so it is wrongly matched with Activity."
+   },
+   {
+    "source": "UP PGT 2021",
+    "question": "The Debt-Equity Ratio is a test of",
+    "options": [
+     "Profitability",
+     "Solvency",
+     "Liquidity",
+     "Managerial efficiency"
+    ],
+    "correctIndex": 1,
+    "explanation": "The debt to equity ratio is a financial and liquidity ratio that indicates how much debt and equity a company uses. The ratio of total long-term debt and equity capital in the business is called the debt-equity ratio."
+   },
+   {
+    "source": "UP PGT 2021",
+    "question": "Gross Profit Ratio is calculated by",
+    "options": [
+     "Gross Profit ÷ Gross Sales × 100",
+     "Gross Profit ÷ Net Sales × 100",
+     "Net Profit ÷ Gross Sales × 100",
+     "Gross Receipts ÷ Net Sales × 100"
+    ],
+    "correctIndex": 1,
+    "explanation": "Gross profit ratio is one of the profitability ratios. It is the ratio between gross profit and net sales: Gross Profit ÷ Net Sales × 100."
+   },
+   {
+    "source": "UP PGT 2021",
+    "question": "\"Higher the ratio, the more favourable it is.\" This statement does not apply with respect to",
+    "options": [
+     "Stock Turnover Ratio",
+     "Net Profit Ratio",
+     "Gross Profit Ratio",
+     "Operating Ratio"
+    ],
+    "correctIndex": 3,
+    "explanation": "Operating ratio is the ratio between operating expenses and net sales. The higher the operating expenses, the lesser the profit and the higher the operating ratio. Hence the statement does not apply to the operating ratio."
+   },
+   {
+    "source": "UP PGT 2021",
+    "question": "If current ratio is 2.5 and working capital is ₹90,000 then the value of current assets would be",
+    "options": [
+     "₹60,000",
+     "₹1,35,000",
+     "₹1,50,000",
+     "₹2,25,000"
+    ],
+    "correctIndex": 2,
+    "explanation": "Let current liabilities = 1. Current assets = 2.5, so working capital = 1.5. 1.5 = 90,000, therefore current liabilities = 60,000 and current assets = 60,000 × 2.5 = ₹1,50,000."
+   },
+   {
+    "source": "UP PGT 2021",
+    "question": "Inventory turnover ratio is",
+    "options": [
+     "Activity Ratio",
+     "Profitability Ratio",
+     "Solvency Ratio",
+     "Liquidity Ratio"
+    ],
+    "correctIndex": 0,
+    "explanation": "The activity ratio describes how efficiently the company is using its assets to generate income. Stock (inventory) turnover ratio is an activity ratio."
+   },
+   {
+    "source": "UP PGT 2021",
+    "question": "Collection from debtors",
+    "options": [
+     "Decreases current ratio",
+     "Increases current ratio",
+     "Has no effect on current ratio",
+     "Improves the solvency ratio"
+    ],
+    "correctIndex": 2,
+    "explanation": "Collection from debtors has no effect on the current ratio because the decrease in debtors is equal to the increase in cash, and both are current assets. E.g. if current assets are 1,00,000 and current liabilities 50,000, the ratio is 2:1; if 10,000 is collected from debtors, debtors fall by 10,000 and cash rises by 10,000, leaving the ratio unaffected."
+   },
+   {
+    "source": "CGPSC Asst. Prof. 2014",
+    "question": "Which among the following is wrong?",
+    "options": [
+     "P/V ratio = C/S",
+     "P/V ratio = (F + P)/Sales",
+     "P/V ratio = (S − V)/Sales",
+     "P/V ratio = Contribution/Change in sales",
+     "P/V ratio = Fixed cost/Sales"
+    ],
+    "correctIndex": 4,
+    "explanation": "Profit Volume ratio = Contribution ÷ Sales = (Fixed Cost + Profit) ÷ Sales = (Sales − Variable Cost) ÷ Sales = Contribution ÷ Change in sales. Fixed cost ÷ Sales is not the P/V ratio, hence option (e) is wrong."
+   },
+   {
+    "source": "MPPSC Asst. Prof. 2017",
+    "question": "Which one of the following is not a ratio for analysis of profitability?",
+    "options": [
+     "Operating ratio",
+     "Net Profit ratio",
+     "Acid test ratio",
+     "None of these"
+    ],
+    "correctIndex": 2,
+    "explanation": "Profitability ratios include the operating ratio, net profit ratio, gross profit ratio, return on assets and return on equity. The acid test ratio is a short-run solvency (liquidity) ratio."
+   },
+   {
+    "source": "MPPSC Asst. Prof. 2017",
+    "question": "Current ratio is",
+    "options": [
+     "Balance Sheet Ratio",
+     "Profit & Loss account Ratio",
+     "Combined Ratio",
+     "Income Ratio"
+    ],
+    "correctIndex": 0,
+    "explanation": "Balance sheet ratios are obtained only from the information given in the balance sheet. They establish the relationship between various aspects of the financial position of the company, such as assets, liabilities and equity of shareholders. The current ratio is such a ratio."
+   },
+   {
+    "source": "MPPSC Asst. Prof. 2017",
+    "question": "Long term solvency is indicated by",
+    "options": [
+     "Asset Liability Ratio",
+     "Debt Equity Ratio",
+     "Interest Coverage Ratio",
+     "All are correct"
+    ],
+    "correctIndex": 1,
+    "explanation": "The current ratio or acid test ratio is used for short-run solvency, whereas in the long run the debt equity ratio, also known as the solvency ratio, is used. Debt Equity Ratio = Long term debt ÷ Equity."
+   },
+   {
+    "source": "MPPSC Asst. Prof. 2017",
+    "question": "If current ratio is 1.75:1, working capital Rs. 1,12,500 and stock Rs. 82,500, then Acid test ratio will be:",
+    "options": [
+     "1.2:1",
+     "2.9:1",
+     "2.2:1",
+     "1.7:1"
+    ],
+    "correctIndex": 0,
+    "explanation": "Let current liabilities = 1; current assets = 1.75; working capital = 0.75 = 1,12,500, so current liabilities = 1,50,000 and current assets = 2,62,500. Liquid assets = 2,62,500 − 82,500 = 1,80,000. Acid test ratio = 1,80,000 ÷ 1,50,000 = 1.2:1."
+   },
+   {
+    "source": "MPPSC Asst. Prof. 2017",
+    "question": "If sales is Rs. 8,00,000, cost of sales is Rs. 4,80,000 and indirect expenses is Rs. 1,20,000, then the net profit ratio will be:",
+    "options": [
+     "15%",
+     "20%",
+     "25%",
+     "30%"
+    ],
+    "correctIndex": 2,
+    "explanation": "Net profit = Sales − (Cost of sales + Indirect expenses) = 8,00,000 − (4,80,000 + 1,20,000) = 2,00,000. Net profit ratio = 2,00,000 ÷ 8,00,000 × 100 = 25%."
+   },
+   {
+    "source": "MPPSC Asst. Prof. 2017",
+    "question": "Ideal current ratio is:",
+    "options": [
+     "1:1",
+     "2:1",
+     "1:2",
+     "1:3"
+    ],
+    "correctIndex": 1,
+    "explanation": "Current ratio = Current Assets ÷ Current Liabilities. Its ideal ratio is 2:1."
+   },
+   {
+    "source": "MPPSC Asst. Prof. 2017",
+    "question": "Ideal acid test ratio is:",
+    "options": [
+     "2:1",
+     "1:1",
+     "1:3",
+     "3:1"
+    ],
+    "correctIndex": 1,
+    "explanation": "Acid test (quick/liquid) ratio = Liquid Assets ÷ Current Liabilities. Its ideal ratio is 1:1."
+   },
+   {
+    "source": "UP PGT 2016",
+    "question": "The relationship between liquidity and risk is",
+    "options": [
+     "Direct",
+     "Inverse",
+     "No relationship",
+     "None of these"
+    ],
+    "correctIndex": 1,
+    "explanation": "There is an inverse relationship between liquidity and risk. The lesser the liquidity, the greater is the risk."
+   },
+   {
+    "source": "CGPSC Asst. Prof. 2016",
+    "question": "Profit ÷ P/V Ratio =",
+    "options": [
+     "Break Even Point",
+     "Variable Cost",
+     "Fixed Cost",
+     "Margin of Safety",
+     "Angle of Incidence"
+    ],
+    "correctIndex": 3,
+    "explanation": "Margin of safety can be calculated as Profit ÷ P/V Ratio, or as (Current Sales − BEP Sales) ÷ Current Sales × 100, or Current Sales − Break Even Sales."
+   },
+   {
+    "source": "CGPSC Asst. Prof. 2016",
+    "question": "(Change in Profits ÷ Change in Sales) × 100 =",
+    "options": [
+     "Break Even Point",
+     "P/V Ratio",
+     "Contribution",
+     "% increase in sales",
+     "Margin of Safety"
+    ],
+    "correctIndex": 1,
+    "explanation": "Profit Volume Ratio = Contribution ÷ Sales × 100 = (Sales − Variable Cost) ÷ Sales × 100 = (Fixed Expenses + Profit) ÷ Sales × 100 = Change in profit (or contribution) ÷ Change in sales × 100."
+   },
+   {
+    "source": "UP PGT 2016",
+    "question": "If the current ratio of a firm is 2.5:1 and working capital is ₹90,000 then the amount of current liabilities will be",
+    "options": [
+     "₹2,25,000",
+     "₹1,35,000",
+     "₹60,000",
+     "₹36,000"
+    ],
+    "correctIndex": 2,
+    "explanation": "Let current liabilities = x. Current assets = 2.5x, so working capital = 2.5x − x = 1.5x = 90,000, giving x = ₹60,000."
+   },
+   {
+    "source": "UP PGT",
+    "question": "From the following data, calculate the P/V ratio. Year 2017: Sales ₹50,000, Profit ₹5,000. Year 2018: Sales ₹75,000, Profit ₹10,000",
+    "options": [
+     "15%",
+     "20%",
+     "18%",
+     "16%"
+    ],
+    "correctIndex": 1,
+    "explanation": "P/V ratio = Change in profit ÷ Change in sales × 100 = (10,000 − 5,000) ÷ (75,000 − 50,000) × 100 = 5,000 ÷ 25,000 × 100 = 20%."
+   },
+   {
+    "source": "UKPSC Asst. Prof. (GDC)",
+    "question": "Given: Sales ₹1,00,000; Variable cost ₹50,000; Interest ₹5,000; Fixed cost ₹25,000. Operating leverage will be",
+    "options": [
+     "4",
+     "2",
+     "6",
+     "1.8"
+    ],
+    "correctIndex": 1,
+    "explanation": "Operating leverage = Contribution ÷ EBIT. Contribution = 1,00,000 − 50,000 = 50,000. EBIT = 50,000 − 25,000 = 25,000. Operating leverage = 50,000 ÷ 25,000 = 2."
+   },
+   {
+    "source": "UKPSC Asst. Prof. (GDC) 2017",
+    "question": "Variance analysis is related to",
+    "options": [
+     "Ratio analysis",
+     "Standard costing",
+     "Marginal costing",
+     "None of these"
+    ],
+    "correctIndex": 1,
+    "explanation": "Variance analysis is related to standard costing. Standard costing is the determination of cost parameters so that the cause of the variances can be ascertained over time. When the actual cost is greater than the standard it is an adverse variance; if the actual cost is less than the standard it is a favourable variance. Material, labour and overhead costs are mainly used for cost variance study."
+   },
+   {
+    "source": "UKPSC Asst. Prof. (GDC) 2017",
+    "question": "Liquid Ratio is calculated as follows:",
+    "options": [
+     "Total Assets / Total Liabilities",
+     "Current Assets / Current Liabilities",
+     "Liquid Assets / Current Liabilities",
+     "Current Liabilities / Liquid Assets"
+    ],
+    "correctIndex": 2,
+    "explanation": "Liquid Ratio = Liquid Assets ÷ Current Liabilities, where Liquid Assets = Current Assets − Stock."
+   },
+   {
+    "source": "UKPSC Asst. Prof. (GDC) 2017",
+    "question": "Which one of the following is an Activity Ratio?",
+    "options": [
+     "Net Profit Ratio",
+     "Current Ratio",
+     "Debtor Turnover Ratio",
+     "None of these"
+    ],
+    "correctIndex": 2,
+    "explanation": "Activity ratios tell how efficiently a company is using its balance sheet assets to generate revenue and cash. They include the account receivable turnover, working capital turnover, assets turnover, fixed assets turnover and inventory turnover ratios."
+   },
+   {
+    "source": "UKPSC Asst. Prof. (GDC) 2017",
+    "question": "Given: Debentures ₹5,00,000; Equity share capital ₹25,00,000; Cash ₹1,00,000; Debtor ₹2,00,000. Debt Equity Ratio will be",
+    "options": [
+     "5 : 1",
+     "0.2 : 1",
+     "5.6 : 1",
+     "None of these"
+    ],
+    "correctIndex": 1,
+    "explanation": "Debt Equity Ratio = Debentures ÷ Equity = 5,00,000 ÷ 25,00,000 = 1/5 = 0.2:1."
+   },
+   {
+    "source": "HPPSC PGT 2016",
+    "question": "Consider the particulars given below: Sales = Rs. 60,000; Variable cost = Rs. 25,000; Fixed cost = Rs. 30,000. Based on these data, the operating leverage shall be:",
+    "options": [
+     "5",
+     "7",
+     "8",
+     "9"
+    ],
+    "correctIndex": 1,
+    "explanation": "Contribution = 60,000 − 25,000 = 35,000. Profit (EBIT) = 35,000 − 30,000 = 5,000. Operating leverage = Contribution ÷ Profit = 35,000 ÷ 5,000 = 7."
+   },
+   {
+    "source": "HPPSC PGT 2016",
+    "question": "The ratios which measure the relative contribution of financing by owners and outsiders are called:",
+    "options": [
+     "Liquidity ratios",
+     "Leverage ratios",
+     "Activity ratios",
+     "Profitability ratios"
+    ],
+    "correctIndex": 1,
+    "explanation": "Leverage ratios measure the funding of an organization by owners and by outsiders and show the ratio between them. They show how much of the capital is debt and the ability of the company to meet its obligations."
+   },
+   {
+    "source": "HPPSC PGT 2016",
+    "question": "A decreasing current ratio indicates:",
+    "options": [
+     "A stable liquidity",
+     "An increasing liquidity",
+     "A strained liquidity",
+     "Satisfactory current solvency"
+    ],
+    "correctIndex": 2,
+    "explanation": "A decreasing current ratio indicates strained liquidity of the institution. The current ratio shows whether the organization is capable of paying its current liabilities or not. The ideal value of the current ratio is 2:1."
+   },
+   {
+    "source": "UGC NTA NET (Paper II) June 2019",
+    "question": "Capital structure and leverage decisions come in the ambit of",
+    "options": [
+     "Investment decisions",
+     "Distribution decisions",
+     "Financing decisions",
+     "Dividend decisions"
+    ],
+    "correctIndex": 2,
+    "explanation": "Capital structure and leverage decisions come in the ambit of financing decisions. Financial management decision making is divided into three major decisions: (1) Investment decision, (2) Financing decision, (3) Dividend policy decision."
+   },
+   {
+    "source": "UGC NTA NET (Paper II) Dec 2018",
+    "question": "Which one of the following statements is not true?",
+    "options": [
+     "Conversion of debentures into preference shares will decrease debt-equity ratio",
+     "Long-term liabilities due for payment within a year should be treated as current liabilities",
+     "Higher operating ratio indicates higher profits",
+     "Cost of sales is a better numerator than sales while calculating stock turnover"
+    ],
+    "correctIndex": 2,
+    "explanation": "A higher operating ratio does not indicate higher profits, because the firm has to face loss even if the operating ratio is high. Operating ratio = (Cost of sales + Operating expenses) ÷ Net sales × 100; the lower this ratio, the more profitable the firm."
+   },
+   {
+    "source": "UGC NTA NET (Paper II) Dec 2018",
+    "question": "A company proposes to introduce a new product in the market. The company wants to maintain P/V Ratio at 25%. If variable cost of the product is ₹300, what will be the selling price?",
+    "options": [
+     "₹100",
+     "₹200",
+     "₹300",
+     "₹400"
+    ],
+    "correctIndex": 3,
+    "explanation": "P/V ratio = (Sales − Variable cost) ÷ Sales. 25/100 = (x − 300) ÷ x, so 25x = 100x − 30,000, 75x = 30,000 and x = ₹400."
+   },
+   {
+    "source": "UGC NTA NET (Paper II) Dec 2018",
+    "question": "Combined leverage can be used to measure the relationship between",
+    "options": [
+     "EBIT and EPS",
+     "Sales and EPS",
+     "Sales and EBIT",
+     "PAT and EPS"
+    ],
+    "correctIndex": 1,
+    "explanation": "Combined leverage is calculated by multiplying operating leverage (OL) and financial leverage (FL): Combined leverage = OL × FL = (Sales ÷ EBIT) × (EBIT ÷ EPS) = Sales ÷ EPS."
+   },
+   {
+    "source": "UGC NTA NET (Paper II) Dec 2018",
+    "question": "Sales of a firm are ₹40 lacs; variable costs ₹10 lacs; fixed costs ₹15 lacs; interest ₹5 lacs. Combined leverage of the firm will be",
+    "options": [
+     "2.5",
+     "3",
+     "2",
+     "8"
+    ],
+    "correctIndex": 1,
+    "explanation": "Contribution = 40 − 10 = 30 lakh; EBIT = 30 − 15 = 15 lakh; EBT = 15 − 5 = 10 lakh. Combined leverage = Contribution ÷ EBT = 30 ÷ 10 = 3."
+   },
+   {
+    "source": "UGC NTA NET (Paper II) Dec 2018",
+    "question": "A firm has inventory turnover of 3 and cost of goods sold is ₹2,70,000. With better inventory management, the inventory turnover is increased to 5. This would result in",
+    "options": [
+     "Increase in inventory by ₹54,000",
+     "Decrease in inventory by ₹36,000",
+     "Increase in cost of goods sold by ₹20,000",
+     "Decrease in inventory by ₹90,000"
+    ],
+    "correctIndex": 1,
+    "explanation": "Average inventory = COGS ÷ Inventory turnover = 2,70,000 ÷ 3 = 90,000. New average inventory = 2,70,000 ÷ 5 = 54,000. Inventory decreases by 90,000 − 54,000 = ₹36,000."
+   },
+   {
+    "source": "UGC NTA NET (Paper II) Dec 2018",
+    "question": "Which of the following is an implicit cost of increasing proportion of debt of a company?",
+    "options": [
+     "P.E. Ratio of the company would increase",
+     "Rate of return of the company would decrease",
+     "Tax-shield would not be available on new debts",
+     "Equity shareholders would demand higher return"
+    ],
+    "correctIndex": 3,
+    "explanation": "When the underlying costs of a company's debts increase proportionately, equity shareholders begin to demand higher returns. With more payments in the form of inherent costs of loans, equity shareholders are also motivated to demand higher dividends."
+   },
+   {
+    "source": "UGC NET Exam (Paper III) Nov 2017",
+    "question": "Which one of the following is not correct?",
+    "options": [
+     "Margin of Safety = Profit ÷ P/V ratio",
+     "P/V Ratio = (Change in Contribution ÷ Change in sales) × 100",
+     "Break-even point in units = Fixed cost ÷ Contribution per unit",
+     "Required sales to earn desired profit = Desired profit ÷ P/V ratio"
+    ],
+    "correctIndex": 3,
+    "explanation": "Required sales (Rs.) = (Fixed Cost + Desired Profit) ÷ P/V Ratio, not Desired profit ÷ P/V ratio alone. So option (d) is wrong."
+   },
+   {
+    "source": "UGC NET Exam (Paper III) Nov 2017",
+    "question": "Operating Leverage and Financial Leverage of a firm are 3 and 2, respectively. If sales increase by 6%, then earnings before tax will rise by:",
+    "options": [
+     "18%",
+     "12%",
+     "36%",
+     "30%"
+    ],
+    "correctIndex": 2,
+    "explanation": "Combined leverage = OL × FL = 3 × 2 = 6. A 6% rise in sales therefore raises earnings by 6 × 6% = 36%."
+   },
+   {
+    "source": "UGC NET Exam (Paper II) Dec 2015",
+    "question": "'X' Ltd. has a liquid ratio of 2:1. If its stock is ₹40,000 and its current liabilities are ₹1 Lac, its current ratio will be:",
+    "options": [
+     "1.4 times",
+     "2.4 times",
+     "1.2 times",
+     "3.4 times"
+    ],
+    "correctIndex": 1,
+    "explanation": "Liquid assets = 2 × 1,00,000 = 2,00,000. Current assets = Liquid assets + Stock = 2,00,000 + 40,000 = 2,40,000. Current ratio = 2,40,000 ÷ 1,00,000 = 2.4:1."
+   },
+   {
+    "source": "UGC NET Exam (Paper II) Dec 2015",
+    "question": "'Comparison of the financial statements of the current year with the performance of previous years of the same firm' is known as:",
+    "options": [
+     "Trend Analysis",
+     "Horizontal Analysis",
+     "Intra-firm comparison",
+     "All of the above"
+    ],
+    "correctIndex": 3,
+    "explanation": "Comparison of the financial statements of the current year with the performance of previous years of the same firm is known as trend analysis. It is also known as horizontal analysis or intra-firm comparison analysis."
+   },
+   {
+    "source": "UGC NET Exam (Paper III) Dec 2014",
+    "question": "Return on Investment (ROI) is computed as",
+    "options": [
+     "Net Profit Ratio × Capital Turnover Ratio",
+     "Operating Net Profit Ratio × Shareholders Fund",
+     "Net Profit ÷ Sales",
+     "Cost of Sales ÷ Capital Employed"
+    ],
+    "correctIndex": 0,
+    "explanation": "Return on Investment = Net Profit Ratio × Capital Turnover Ratio. When the calculation is taken on initial investment it is called ROI, and when average investment is used it is called the average rate of return (ARR)."
+   },
+   {
+    "source": "UGC NET Exam (Paper III) Dec 2014",
+    "question": "Margin of Safety is calculated by using",
+    "options": [
+     "Profit ÷ P/V Ratio",
+     "Fixed Cost ÷ Contribution",
+     "Break Even Sales ÷ Sales",
+     "Profit ÷ Sales"
+    ],
+    "correctIndex": 0,
+    "explanation": "The margin of safety is the difference between the actual sales and the break-even point. MOS (Rs.) = Sales − BEP (Rs.) = Profit ÷ P/V Ratio. MOS (units) = Profit ÷ Contribution per unit."
+   },
+   {
+    "source": "UGC NET Exam (Paper III) June 2014",
+    "question": "The benefits of debt financing over equity financing are likely to be highest in which of the following situations?",
+    "options": [
+     "High marginal tax rates and low non-interest tax benefits",
+     "Low marginal tax rates and low non-interest tax benefits",
+     "High marginal tax rates and high non-interest tax benefits",
+     "Low marginal tax rates and high non-interest tax benefits"
+    ],
+    "correctIndex": 0,
+    "explanation": "Debt financing has the highest benefits over equity financing with higher marginal tax rates and lower non-interest tax benefits."
+   },
+   {
+    "source": "UGC NET Exam (Paper III) Dec 2013",
+    "question": "Which of the following ratios are taken into consideration by a banker before sanctioning the loan?",
+    "options": [
+     "Proprietary Ratio",
+     "Stock-Turnover Ratio",
+     "Debt-Equity Ratio",
+     "All of the above"
+    ],
+    "correctIndex": 2,
+    "explanation": "Before sanctioning the loan, the debt equity ratio of the business or loanee firm is taken into consideration by the banker, because it shows whether the institution will be able to pay the debt liabilities or not. This ratio represents the relationship between long-term debt and equity."
+   },
+   {
+    "source": "UGC NET Exam (Paper II) June 2013",
+    "question": "The appropriate ratio for indicating liquidity crisis is",
+    "options": [
+     "Operating ratio",
+     "Sales turnover ratio",
+     "Current ratio",
+     "Acid test ratio"
+    ],
+    "correctIndex": 3,
+    "explanation": "The acid test ratio is the most appropriate ratio to indicate a liquidity crisis. It calculates the level of quick liquidity existing in the business: Quick Assets ÷ Current Liabilities, where Quick Assets = Current Assets − (Inventory + Prepaid expenses)."
+   },
+   {
+    "source": "UGC NET Exam (Paper III) June 2013",
+    "question": "Which of the following comes under efficiency ratios?",
+    "options": [
+     "Average collection period",
+     "Inventory turnover ratio",
+     "Fixed assets turnover ratio",
+     "All of the above"
+    ],
+    "correctIndex": 3,
+    "explanation": "Efficiency ratios include the average collection period, stock turnover ratio, fixed asset turnover ratio and average payable period. All the given options are used to calculate the efficiency ratio."
+   },
+   {
+    "source": "UGC NET Exam (Paper III) Dec 2012",
+    "question": "When the Debt Turnover Ratio is 4, what is the average collection period?",
+    "options": [
+     "5 months",
+     "4 months",
+     "3 months",
+     "2 months"
+    ],
+    "correctIndex": 2,
+    "explanation": "Average collection period = 12 months ÷ Debt turnover ratio = 12 ÷ 4 = 3 months."
+   },
+   {
+    "source": "UGC NET Exam (Paper III) Dec 2012",
+    "question": "If the current ratio is 2:1 and working capital is ₹60,000, what is the value of the Current Assets?",
+    "options": [
+     "₹60,000",
+     "₹1,00,000",
+     "₹1,20,000",
+     "₹1,80,000"
+    ],
+    "correctIndex": 2,
+    "explanation": "Let current liabilities = x, so current assets = 2x. Working capital = 2x − x = x = 60,000. Current assets = 2 × 60,000 = ₹1,20,000."
+   },
+   {
+    "source": "TGT 2009, 2011",
+    "question": "Current liabilities are equal to–",
+    "options": [
+     "Current assets − Working capital",
+     "Working capital − Current assets",
+     "Current assets + Working capital",
+     "None of these"
+    ],
+    "correctIndex": 0,
+    "explanation": "Working capital = Current assets − Current liabilities. Therefore Current liabilities = Current assets − Working capital."
+   },
+   {
+    "source": "TGT 2013",
+    "question": "Which of the following is not a current liability?",
+    "options": [
+     "Bank overdraft",
+     "Debentures",
+     "Unpaid salary",
+     "Bills payable"
+    ],
+    "correctIndex": 1,
+    "explanation": "Current liabilities are those whose payment is made within a period of less than one year, e.g. creditors, bank overdrafts, outstanding salary, bills payable, dividends payable and accounts payable. Debentures are not current liabilities; they are a long-term liability."
+   },
+   {
+    "source": "TGT 2013",
+    "question": "If current ratio is 2.4:1 and current liability is Rs. 20,000/-, then what will be the amount of current assets?",
+    "options": [
+     "Rs. 44,000",
+     "Rs. 48,000",
+     "Rs. 50,000",
+     "Rs. 8,333"
+    ],
+    "correctIndex": 1,
+    "explanation": "Current ratio = Current assets ÷ Current liabilities. Current assets = 20,000 × 2.4 = Rs. 48,000."
+   },
+   {
+    "source": "TGT 2010",
+    "question": "Given that inventory turnover ratio = 6 times, average inventory = ₹8,000 and selling price = 25% more than the cost. What will be the amount of gross profit?",
+    "options": [
+     "₹20,000",
+     "₹4,000",
+     "₹10,000",
+     "₹12,000"
+    ],
+    "correctIndex": 3,
+    "explanation": "Cost of goods sold = Stock turnover ratio × Average stock = 8,000 × 6 = ₹48,000. Sales = 48,000 × 125/100 = ₹60,000. Gross profit = 60,000 − 48,000 = ₹12,000."
+   },
+   {
+    "source": "TGT 2009, UPPCS (Pre) 2003",
+    "question": "The current ratio of X Limited is 2:1 and the quick ratio is 1.5:1. If the current liability is Rs. 80,000, then the value of the stock will be–",
+    "options": [
+     "₹1,60,000",
+     "₹1,20,000",
+     "₹40,000",
+     "₹80,000"
+    ],
+    "correctIndex": 2,
+    "explanation": "Current assets = 2 × 80,000 = 1,60,000. Liquid assets = 1.5 × 80,000 = 1,20,000. Stock = Current assets − Liquid assets = 1,60,000 − 1,20,000 = ₹40,000."
+   },
+   {
+    "source": "TGT 2009",
+    "question": "If sales are ₹18,000, gross profit ₹5,000 and net loss ₹1,000, then the amount of operating expenses will be",
+    "options": [
+     "₹4,000",
+     "₹6,000",
+     "₹13,000",
+     "₹17,000"
+    ],
+    "correctIndex": 1,
+    "explanation": "Operating expenses = Gross profit − Net profit (+ Net loss) = 5,000 + 1,000 = ₹6,000."
+   },
+   {
+    "source": "TGT 2009",
+    "question": "Match List-I with List-II and choose the correct answer. List-I: A. Cash B. Profit C. Discount on issue of shares D. Machinery and plant. List-II: (i) Equity share capital (ii) Permanent property (iii) Virtual asset (iv) Current asset. Codes (A)(B)(C)(D)",
+    "options": [
+     "(i) (iii) (iv) (ii)",
+     "(iv) (i) (iii) (ii)",
+     "(iv) (iii) (ii) (i)",
+     "(ii) (iii) (i) (iv)"
+    ],
+    "correctIndex": 1,
+    "explanation": "As per the answer key: Cash – Current asset; Profit – Equity share capital (owners' funds); Discount on issue of shares – Virtual (fictitious) asset; Machinery and plant – Fixed (permanent) asset."
+   },
+   {
+    "source": "TGT 2006",
+    "question": "The closing balance of the debtors was ₹12,000. The sales made to the customers during the year were ₹21,500 and ₹23,600 were realized from the customers. Debtors opening balance was–",
+    "options": [
+     "₹33,500",
+     "₹14,100",
+     "₹9,800",
+     "₹33,300"
+    ],
+    "correctIndex": 1,
+    "explanation": "Opening debtors = Closing debtors + Recovery from debtors − Credit sales = 12,000 + 23,600 − 21,500 = ₹14,100."
+   },
+   {
+    "source": "TGT 2006",
+    "question": "Which of the following is not a current asset?",
+    "options": [
+     "Stock",
+     "Preliminary expenses",
+     "Debtors",
+     "Cash balance"
+    ],
+    "correctIndex": 1,
+    "explanation": "A current asset is an asset which can be converted into cash within a year, e.g. cash in hand, cash at bank, stock/inventory, debtors, bills received, pre-paid expenses and short-term securities. Preliminary expenses are not included in current assets."
+   },
+   {
+    "source": "TGT 2006",
+    "question": "Current assets are convertible into cash during which of the following periods?",
+    "options": [
+     "6 month",
+     "12 month",
+     "18 month",
+     "24 month"
+    ],
+    "correctIndex": 1,
+    "explanation": "Generally, a current asset means an asset which is converted into cash or cash equivalent within a period of 12 months or 1 year. Current assets are essential for maintaining the liquidity of the business."
+   },
+   {
+    "source": "TGT 2004",
+    "question": "Purchase of goods for cash–",
+    "options": [
+     "Will increase the gross profit percentage",
+     "Will decrease the current ratio",
+     "Will increase the current ratio",
+     "Will not affect the current ratio"
+    ],
+    "correctIndex": 3,
+    "explanation": "Purchase of goods against cash has no effect on the current ratio, because the current ratio is affected only when current assets or current liabilities change. Cash and goods are both current assets, so if goods are purchased in exchange for cash there is no change in total current assets."
+   },
+   {
+    "source": "TGT 2004",
+    "question": "Which of the following is a current liability?",
+    "options": [
+     "Capital",
+     "Reserve Fund",
+     "Bills Payable",
+     "Debenture"
+    ],
+    "correctIndex": 2,
+    "explanation": "Bills payable comes in the category of current liabilities, which are generally paid within a financial year. Capital, reserve fund and debentures are long-term liabilities."
+   },
+   {
+    "source": "TGT 2004",
+    "question": "The formula Debt (long term) ÷ Equity (Shareholders' Funds) is",
+    "options": [
+     "Debt and total funds ratio",
+     "Ownership Ratio",
+     "Capital Turnover Ratio",
+     "Debt-Equity Ratio"
+    ],
+    "correctIndex": 3,
+    "explanation": "The debt equity ratio is calculated under long-term solvency for a business entity: Debt equity ratio = Debt (long term) ÷ Equity (Shareholders' funds). It compares the amount of owner's capital with external debt in the institution."
+   },
+   {
+    "source": "TGT 2004",
+    "question": "On account purchases of goods at a current ratio of 2:1",
+    "options": [
+     "Increase current ratio",
+     "Decrease current ratio",
+     "Increase gross profit percentage",
+     "Decrease gross profit percentage"
+    ],
+    "correctIndex": 1,
+    "explanation": "If the current ratio is 2:1 and goods are purchased on credit, the current ratio will decrease. E.g. current assets 2,000 and current liabilities 1,000 (2:1); after a credit purchase of 1,000, they become 3,000 and 2,000, a ratio of 3:2, which is less than the old ratio."
+   },
+   {
+    "source": "TGT 2003",
+    "question": "Which of the following is not a movable property?",
+    "options": [
+     "Debtors",
+     "Pre-paid expenses",
+     "Stock",
+     "Furniture in the clothing business"
+    ],
+    "correctIndex": 3,
+    "explanation": "Movable property generally means property which can be converted into liquid form within a financial year, such as debtors, prepaid expenses and stock. Furniture in the clothing business is a fixed asset, not a movable (current) one."
+   },
+   {
+    "source": "TGT 2003",
+    "question": "Payment to creditors results in–",
+    "options": [
+     "Increase in total assets",
+     "Decrease in total assets",
+     "Increase in total liabilities",
+     "Decrease in total liabilities and total assets"
+    ],
+    "correctIndex": 3,
+    "explanation": "Payment to creditors reduces both total liabilities and total assets. By the two-sided concept of accounting, any transaction affects both sides of the accounting equation: if assets rise, liabilities rise; if liabilities fall, assets fall too."
+   },
+   {
+    "source": "TGT 2002",
+    "question": "Assertion (A): Interest payable on working capital should be treated as an item of operating expenses. Reason (R): Interest is the cost of capital used in the business.",
+    "options": [
+     "Both A and R are correct and R is the correct explanation of A",
+     "Both A and R are correct and R is not the correct explanation of A",
+     "A is correct but R is wrong",
+     "A is wrong but R is correct"
+    ],
+    "correctIndex": 3,
+    "explanation": "Interest is given at a fixed rate on the capital invested by the trader in the business. It is revenue expenditure but it is profit for the trader. Hence (A), that interest payable on working capital should be treated as an operating expense, is false, whereas (R), that interest is the cost of capital used in the business, is correct."
+   },
+   {
+    "source": "TGT 2002, PGT 2003, 2006, UPPCS (Pre) 1996",
+    "question": "If the average recovery period is 15 days and the average book receivables are Rs. 45,000, then what will be the total annual credit sales?",
+    "options": [
+     "Rs. 10,80,000",
+     "Rs. 16,20,000",
+     "Rs. 6,75,000",
+     "Rs. 1,87,500"
+    ],
+    "correctIndex": 0,
+    "explanation": "Average recovery period = (Average book receivables ÷ Total annual credit sales) × 360 days. Total annual credit sales = 45,000 ÷ 15 × 360 = 45,000 × 24 = Rs. 10,80,000."
+   },
+   {
+    "source": "TGT 2002, UPPCS (Pre) 1996/1997",
+    "question": "Profit before tax of the company is Rs. 2,00,000. If the interest coverage (interest turnover) ratio is 5, what will be the amount of interest?",
+    "options": [
+     "Rs. 20,000",
+     "Rs. 33,333",
+     "Rs. 40,000",
+     "Rs. 50,000"
+    ],
+    "correctIndex": 2,
+    "explanation": "Interest turnover (coverage) ratio = Profit before tax ÷ Amount of interest. 5 = 2,00,000 ÷ Amount of interest, so interest = 2,00,000 ÷ 5 = Rs. 40,000."
+   },
+   {
+    "source": "TGT 2002, UPPCS (Pre) 1996",
+    "question": "Total sales are Rs. 1,00,000, cash sales included in total sales Rs. 20,000, sales returns Rs. 7,000. Total debtors as on 31st March 1993 Rs. 9,000 and bills receivable as on 31st March 1993 is Rs. 2,000. The average collection period for the year 1992-93 would be",
+    "options": [
+     "60 days",
+     "45 days",
+     "90 days",
+     "55 days"
+    ],
+    "correctIndex": 3,
+    "explanation": "Average receivable = Debtors + B/R = 9,000 + 2,000 = 11,000. Net credit sales = 1,00,000 − 20,000 − 7,000 = 73,000. Average collection period = 11,000 ÷ 73,000 × 360 ≈ 55 days."
+   },
+   {
+    "source": "TGT 2002",
+    "question": "The margin of safety / residue of security is equal to",
+    "options": [
+     "Fixed cost + profit",
+     "Fixed cost + Support residue",
+     "Sales income − Sales income at the breakeven point",
+     "Sales income − Variable costs"
+    ],
+    "correctIndex": 2,
+    "explanation": "Margin of safety is equal to the difference between sales proceeds (actual sales) and the break-even sales: Margin of safety = Sales proceeds − Sales proceeds at break-even point. The higher the sales above break-even, the higher the margin of safety."
+   },
+   {
+    "source": "PGT 2011",
+    "question": "Current ratio can be increased–",
+    "options": [
+     "By showing more current assets",
+     "By showing more current liabilities",
+     "By showing less current assets",
+     "None of these"
+    ],
+    "correctIndex": 0,
+    "explanation": "Current ratio = Current Assets ÷ Current Liabilities. When current assets increase in comparison to current liabilities, the current ratio increases, and vice versa."
+   },
+   {
+    "source": "PGT 2011",
+    "question": "In asset turnover ratio we see–",
+    "options": [
+     "How much property is to be sold",
+     "Relationship between property and net sales",
+     "Sales value of the property",
+     "Market value of the property"
+    ],
+    "correctIndex": 1,
+    "explanation": "Assets turnover ratio expresses the relationship between total assets and net sales: Assets Turnover Ratio = Net sales ÷ Total Assets."
+   },
+   {
+    "source": "PGT 2011",
+    "question": "Short term analysis of financial statements is mainly related to",
+    "options": [
+     "Working capital analysis",
+     "Stability of the institution",
+     "Earning power potential of the organization",
+     "The future position of the organization"
+    ],
+    "correctIndex": 0,
+    "explanation": "The short run analysis of financial statements is mainly related to the working capital analysis."
+   },
+   {
+    "source": "PGT 2011",
+    "question": "Liquidity ratio does not include–",
+    "options": [
+     "Cash",
+     "Bank balance",
+     "Debtors",
+     "Stock"
+    ],
+    "correctIndex": 3,
+    "explanation": "Liquidity ratio means the ratio of liquid assets and current liabilities. Liquid assets include cash in hand, bank balances and debtors, while stock is not included."
+   },
+   {
+    "source": "PGT 2011",
+    "question": "The lower stock (turnover) is the periodic indicator–",
+    "options": [
+     "Over investment in stock/inventory",
+     "Monopoly position",
+     "Payment/clearing status/position",
+     "Overtrading"
+    ],
+    "correctIndex": 0,
+    "explanation": "The ratio that establishes the relationship between the stock of goods and the cost of goods sold is called stock turnover ratio. It reveals how many times a year the stock is sold and replaced; the higher the ratio, the better. A low inventory turnover ratio indicates over-investment in inventory in the business."
+   },
+   {
+    "source": "PGT 2011",
+    "question": "If the operating ratio is 75% then the net ratio will be",
+    "options": [
+     "15%",
+     "25%",
+     "20%",
+     "None of these"
+    ],
+    "correctIndex": 1,
+    "explanation": "Operating ratio + Net profit ratio = 100. Net profit ratio = 100 − 75 = 25%."
+   },
+   {
+    "source": "PGT 2011",
+    "question": "Opening stock Rs. 80,000, closing stock Rs. 1,00,000, cost of goods sold Rs. 3,60,000. Hence stock turnover is",
+    "options": [
+     "2 times",
+     "4 times",
+     "4.5 times",
+     "None of these"
+    ],
+    "correctIndex": 1,
+    "explanation": "Average stock = (80,000 + 1,00,000) ÷ 2 = 90,000. Stock turnover ratio = Cost of goods sold ÷ Average stock = 3,60,000 ÷ 90,000 = 4 times."
+   },
+   {
+    "source": "PGT 2011",
+    "question": "What will be the difference in the receipt of book debts?",
+    "options": [
+     "Current ratio will increase",
+     "Current ratio will decrease",
+     "There will be no effect on the current ratio",
+     "None of the above"
+    ],
+    "correctIndex": 2,
+    "explanation": "Book debts (debtors) are a current asset, and so is cash. On receipt, the amount of debtors falls and cash rises by the same amount, so only the composition of current assets changes, with no effect on the current ratio."
+   },
+   {
+    "source": "PGT 2013",
+    "question": "The quick ratio is 1.5:1 and the quick assets are Rs. 30,000. The quick liability will be",
+    "options": [
+     "Rs. 20,000",
+     "Rs. 50,000",
+     "Rs. 45,000",
+     "Rs. 30,000"
+    ],
+    "correctIndex": 0,
+    "explanation": "Quick ratio = Quick assets ÷ Quick liabilities. 1.5 = 30,000 ÷ Quick liabilities, so Quick liabilities = 30,000 ÷ 1.5 = Rs. 20,000."
+   },
+   {
+    "source": "PGT 2013",
+    "question": "If the operating fund is Rs. 42,000 and the depreciation on plant and machine is Rs. 5000 then the profit will be",
+    "options": [
+     "Rs. 37,000",
+     "Rs. 42,000",
+     "Rs. 47,000",
+     "Cannot be determined"
+    ],
+    "correctIndex": 0,
+    "explanation": "Fund from operation 42,000 less depreciation on plant 5,000 gives net profit of Rs. 37,000."
+   },
+   {
+    "source": "PGT 2013",
+    "question": "Fixed cost will be divided to get the break even point selling price in rupees",
+    "options": [
+     "Variable cost per unit",
+     "Datum per unit",
+     "Fixed cost per unit",
+     "Profit volume ratio"
+    ],
+    "correctIndex": 3,
+    "explanation": "Fixed cost is divided by the profit volume ratio to get the break even point in rupees: B.E.P. (in Rs.) = Fixed Cost ÷ P/V Ratio."
+   },
+   {
+    "source": "PGT 2013",
+    "question": "Current liability in the following is–",
+    "options": [
+     "Outstanding wages",
+     "Machine preference share",
+     "Provision for depreciation on the machine",
+     "Share profit"
+    ],
+    "correctIndex": 0,
+    "explanation": "Current liability means a liability which is paid within a financial year. Outstanding wages, bills payable, creditors and outstanding salary are included under current liabilities."
+   },
+   {
+    "source": "PGT 2010",
+    "question": "Find the cost of closing stock from the following: Current ratio 2.5; Liquid ratio 1.5; Working capital Rs. 1,20,000; Fixed assets Rs. 3,00,000",
+    "options": [
+     "Rs. 60,000",
+     "Rs. 80,000",
+     "Rs. 1,00,000",
+     "Rs. 1,20,000"
+    ],
+    "correctIndex": 1,
+    "explanation": "Let current liabilities = 1: current assets = 2.5, working capital = 1.5 = 1,20,000, so current liabilities = 80,000 and current assets = 2,00,000. Liquid assets = 1.5 × 80,000 = 1,20,000. Closing stock = 2,00,000 − 1,20,000 = Rs. 80,000."
+   },
+   {
+    "source": "PGT 2009",
+    "question": "If cash is Rs. 10,000, closing stock is Rs. 25,000, debtors is Rs. 5,000, creditors is Rs. 22,000 and bank overdraft is Rs. 8,000, then the current ratio will be",
+    "options": [
+     "3 : 4",
+     "4 : 3",
+     "2 : 1",
+     "1 : 2"
+    ],
+    "correctIndex": 1,
+    "explanation": "Current ratio = Current assets ÷ Current liabilities = (Cash + Stock + Debtors) ÷ (Creditors + Bank overdraft) = (10,000 + 25,000 + 5,000) ÷ (22,000 + 8,000) = 40,000 ÷ 30,000 = 4:3."
+   },
+   {
+    "source": "PGT 2009, 2013, UPPSC (Pre) 2007",
+    "question": "If opening stock Rs. 50,000, closing stock Rs. 60,000 and cost of goods sold is Rs. 2,20,000, then stock turnover ratio will be",
+    "options": [
+     "Two times",
+     "Three times",
+     "Four times",
+     "One time"
+    ],
+    "correctIndex": 2,
+    "explanation": "Average stock = (50,000 + 60,000) ÷ 2 = 55,000. Stock turnover ratio = Cost of goods sold ÷ Average stock = 2,20,000 ÷ 55,000 = 4 times."
+   },
+   {
+    "source": "PGT 2009",
+    "question": "To measure the profitability of a business, among the following which ratios will be used? (I) Acid test ratio (II) Return on capital employed (III) Net profit ratio (IV) Interest protection ratio (V) Stock periodic ratio (VI) Debt equity ratio",
+    "options": [
+     "Only (III)",
+     "(I) and (III)",
+     "(II) and (III)",
+     "(I), (II), (III) and (IV)"
+    ],
+    "correctIndex": 2,
+    "explanation": "Profitability ratios represent the results of an organization's business operations or a measure of overall performance and effectiveness. Main profitability ratios are gross profit ratio, operating profit ratio, net profit ratio, return on capital employed and return on total assets."
+   },
+   {
+    "source": "PGT 2009",
+    "question": "Some of the items of liability are given below: (I) Bank overdraft (II) Debenture (III) Loan from financial institution (IV) Unpaid wages (V) Creditors. Current liabilities in the above are",
+    "options": [
+     "(IV) only",
+     "(III), (IV) and (I)",
+     "(I), (IV) and (V)",
+     "All of these"
+    ],
+    "correctIndex": 2,
+    "explanation": "Current liabilities refer to liabilities which are paid within one year. They include sundry creditors, bank overdraft, unpaid wages, outstanding expenses and bills payable."
+   },
+   {
+    "source": "PGT 2009",
+    "question": "If the net sales of the year is Rs. 2,50,000 and the debtors is Rs. 50,000, then the average collection period will be",
+    "options": [
+     "45 days",
+     "54 days",
+     "73 days",
+     "37 days"
+    ],
+    "correctIndex": 2,
+    "explanation": "Average collection period = (Debtors ÷ Net sales) × 365 = (50,000 ÷ 2,50,000) × 365 = 73 days."
+   },
+   {
+    "source": "PGT 2003, 2006, UPPCS (Pre) 2002",
+    "question": "Cash selling of stock to current ratio–",
+    "options": [
+     "Increases",
+     "Reduces",
+     "Remains unaffected",
+     "None of these"
+    ],
+    "correctIndex": 2,
+    "explanation": "A cash sale of stock has no effect on the current ratio. Stock is a current asset and cash is also a current asset, so cash rises by the amount that stock falls and total current assets remain unchanged."
+   },
+   {
+    "source": "PGT 2003, 2006",
+    "question": "Quick ratio is a check on",
+    "options": [
+     "Solvency",
+     "Profitability",
+     "Performance capacity",
+     "Liquidity"
+    ],
+    "correctIndex": 3,
+    "explanation": "The liquidity existing in the organization is checked by the quick ratio or acid test ratio. It is considered the best test of liquidity; the ideal is 1:1. Quick Ratio = Quick (Liquid) Assets ÷ Quick (Liquid) Liabilities."
+   },
+   {
+    "source": "PGT 2006",
+    "question": "Fixed cost = Rs. 4,00,000, profit = Rs. 2,00,000 and profit-volume ratio is 40%, then the amount of sales will be",
+    "options": [
+     "1,00,000",
+     "12,00,000",
+     "15,00,000",
+     "8,00,000"
+    ],
+    "correctIndex": 2,
+    "explanation": "P/V ratio = (Fixed cost + Profit) ÷ Sales. 40/100 = (4,00,000 + 2,00,000) ÷ Sales, so Sales = 6,00,000 × 100 ÷ 40 = Rs. 15,00,000."
+   },
+   {
+    "source": "PGT 2003, 2006",
+    "question": "The word 'receivables' includes–",
+    "options": [
+     "Trade creditors only",
+     "Trade debtors only",
+     "Trade debtors and bills receivable",
+     "Trade creditors and bills payable"
+    ],
+    "correctIndex": 2,
+    "explanation": "Receivables include both trade debtors and bills receivable, whereas payables include trade creditors and bills payable. Receivables are included in current assets and payables in current liabilities."
+   },
+   {
+    "source": "PGT 2004/2000, PGT PRE-1994",
+    "question": "Which of the following is a leverage ratio?",
+    "options": [
+     "Debt-equity ratio",
+     "Operating ratio",
+     "Stock ratio",
+     "Current ratio"
+    ],
+    "correctIndex": 0,
+    "explanation": "Leverage ratios are used to find the long-term liquidity (solvency) position and include the debt-equity ratio, solvency ratio, owner's ratio, fixed asset ratio, long-term debt to fixed asset ratio and gearing ratio. The operating ratio relates to profitability, stock ratio to turnover, and current ratio to short-run solvency."
+   },
+   {
+    "source": "PGT 2004",
+    "question": "If the average collection period is 15 days and average book receivables is Rs. 60,000 then what will be the total annual credit sales?",
+    "options": [
+     "14,60,000",
+     "9,00,000",
+     "2,16,00,000",
+     "1,08,00,000"
+    ],
+    "correctIndex": 0,
+    "explanation": "Average collection period = (Average book receivables ÷ Total annual credit sales) × 365. 15 = 60,000 × 365 ÷ Sales, so Sales = 60,000 × 365 ÷ 15 = Rs. 14,60,000."
+   },
+   {
+    "source": "U.P.P.C.S. (Pre.) 1994",
+    "question": "Over-capitalization results in:",
+    "options": [
+     "Misapplication of the resources of the community",
+     "Better application of the resources of the community",
+     "Over-utilization of the resources of the community",
+     "Causing no harm to the use of the resources of the community"
+    ],
+    "correctIndex": 0,
+    "explanation": "Over-capitalization is the investment of more capital than necessary on the profit of a certain amount in the business. The resources of society are misused in over-capitalization."
+   },
+   {
+    "source": "PGT 2003",
+    "question": "Earning return ratio shows the relationship between earning per share and whom?",
+    "options": [
+     "Net profit",
+     "Number of equity share",
+     "Market price per share",
+     "Dividend per share"
+    ],
+    "correctIndex": 1,
+    "explanation": "Earning return (net profit) shows the relationship between the income per share and the number of equity shares, i.e. Earning return = Earning per share × Equity number of share."
+   },
+   {
+    "source": "TGT 2009, PGT 2000, UPPCS (Pre) 1996",
+    "question": "You are given the items: (1) Bill received (2) Investment (3) Debtors (4) Interest earned but not received. Which arrangement in order of liquidity is correct?",
+    "options": [
+     "1, 2, 3, 4",
+     "2, 1, 4, 3",
+     "2, 3, 1, 4",
+     "3, 1, 4, 2"
+    ],
+    "correctIndex": 2,
+    "explanation": "Assets are arranged in the order of liquidity as: (1) Short-term investment, (2) Debtors, (3) Bills received, (4) Interest earned but not received. That is 2, 3, 1, 4."
+   },
+   {
+    "source": "PGT 2000, UPPCS (Pre) 1998",
+    "question": "Current ratio = 2.8, acid test ratio = 1.5, working capital = 1,62,000. What will be the liquid assets?",
+    "options": [
+     "2,52,000",
+     "1,35,000",
+     "90,000",
+     "2,43,000"
+    ],
+    "correctIndex": 1,
+    "explanation": "Working capital = 2.8x − x = 1.8x = 1,62,000, so current liabilities = 90,000. Liquid assets = 1.5 × 90,000 = 1,35,000."
+   },
+   {
+    "source": "PGT 2000",
+    "question": "You have a large residual fund which you wish to invest in a firm for the long term. Which of the following ratios would be most appropriate for you to decide?",
+    "options": [
+     "Gross debt ÷ Net debt",
+     "Long term debt ÷ Gross capitalization",
+     "Gross debt ÷ Gross equity share capital",
+     "Net average profit ÷ Gross share capital"
+    ],
+    "correctIndex": 1,
+    "explanation": "The long term debt to gross capitalization ratio is the best measure to measure long-term investment in a firm for investing a large non-specific fund. It gives information about the long-term debt and gross capitalization of a firm before investing."
+   },
+   {
+    "source": "PGT 2000",
+    "question": "If the fixed cost is Rs. 40000, variable cost per unit Rs. 2 and the selling price per unit is Rs. 3, what will be the break even point (in units)?",
+    "options": [
+     "20,000 units",
+     "30,000 units",
+     "40,000 units",
+     "50,000 units"
+    ],
+    "correctIndex": 2,
+    "explanation": "BEP (units) = Fixed cost ÷ (Selling price per unit − Variable cost per unit) = 40,000 ÷ (3 − 2) = 40,000 units."
+   },
+   {
+    "source": "PGT 2000, UPPCS (Pre) 1997/1994",
+    "question": "Statement (A): Ratio analysis is an important tool to gain knowledge about the financial soundness of a company. Reason (R): Ratio analysis is the only indicator to decide whether to invest or not in a company.",
+    "options": [
+     "Both A and R are correct and R is the correct explanation of A",
+     "Both A and R are correct and R is not the correct explanation of A",
+     "A is correct but R is wrong",
+     "A is wrong but R is true"
+    ],
+    "correctIndex": 2,
+    "explanation": "Ratio analysis is an important tool for gaining knowledge about the financial soundness of a company. But it is not the only guide for an investor deciding whether to invest; tools like fund flow statement, cash flow statement and break-even point analysis are also used."
+   },
+   {
+    "source": "G.I.C. 2012",
+    "question": "If fixed cost = ₹2,50,000; variable cost = ₹10 per unit; selling price = ₹15 per unit and production level = 75,000 units, calculate profit earned by using marginal costing technique",
+    "options": [
+     "Rs. 1,25,000",
+     "Rs. 1,50,000",
+     "Rs. 2,50,000",
+     "Rs. 3,75,000"
+    ],
+    "correctIndex": 0,
+    "explanation": "Sales = 75,000 × 15 = 11,25,000. Variable cost = 75,000 × 10 = 7,50,000. Contribution = 3,75,000. Less fixed cost 2,50,000 = profit Rs. 1,25,000."
+   },
+   {
+    "source": "G.I.C. 2012",
+    "question": "Match List-I with List-II. A. Liquidity test B. Functional ratio C. Prosperity D. General profitability. List-II: 1. All business creditors ÷ average per day credit purchases 2. Shareholders' fund ÷ total assets 3. Gross profit ÷ Net sales × 100 4. Current assets ÷ Current liabilities. Codes (A)(B)(C)(D)",
+    "options": [
+     "4 1 2 3",
+     "4 3 1 2",
+     "1 2 3 4",
+     "3 4 1 2"
+    ],
+    "correctIndex": 0,
+    "explanation": "Liquidity test – Current assets ÷ Current liabilities (4); Functional ratio – All business creditors ÷ average per day credit purchases (1); Prosperity ratio – Shareholders' fund ÷ total assets (2); General profitability – Gross profit ÷ Net sales × 100 (3)."
+   },
+   {
+    "source": "U.P.P.C.S. (Pre.) 1994",
+    "question": "Which of the following items is not taken into account while computing Current Ratio?",
+    "options": [
+     "Sundry Creditors",
+     "Sundry Debtors",
+     "Furniture",
+     "Bank Overdraft"
+    ],
+    "correctIndex": 2,
+    "explanation": "Current ratio = Current assets ÷ Current liabilities. Current assets include cash, sundry debtors, stock, bills receivable etc., but furniture is not a current asset."
+   },
+   {
+    "source": "U.P.P.C.S. (Pre.) 1994",
+    "question": "Acid-Test Ratio is:",
+    "options": [
+     "Current Assets : Current Liabilities",
+     "Quick Assets : Current Liabilities",
+     "Total Assets : Total Liabilities",
+     "Fixed Assets : Fixed Liabilities"
+    ],
+    "correctIndex": 1,
+    "explanation": "Acid test ratio (liquid ratio) establishes the relationship between liquid assets and current liabilities. Liquid assets are those assets that are quickly converted into cash; all current assets except stock and prepaid expenses are liquid assets. The ideal liquid ratio is 1:1."
+   },
+   {
+    "source": "U.P.P.C.S. (Pre.) 1995",
+    "question": "Liquid Assets are equal to:",
+    "options": [
+     "Value of all current assets",
+     "Sum of cash and Bank Balances",
+     "Current Assets less Inventories",
+     "Current Assets less Inventories and Prepaid Expenses"
+    ],
+    "correctIndex": 3,
+    "explanation": "To calculate liquid assets, inventory and prepaid expenses are removed from current assets: Liquid assets = Current Assets − Stock − Prepaid expenses."
+   },
+   {
+    "source": "U.P.P.C.S. (Pre.) 1995",
+    "question": "The current ratio is ratio between:",
+    "options": [
+     "Current assets and current liabilities",
+     "Liquid assets and current liabilities",
+     "Debts and equity",
+     "Fixed assets and sales"
+    ],
+    "correctIndex": 0,
+    "explanation": "The current ratio is the ratio between current assets and current liabilities. A current ratio of 2:1 indicates optimal liquidity conditions."
+   },
+   {
+    "source": "U.P.P.C.S. (Pre.) 1995",
+    "question": "In case net sale in a year is Rs. 2,00,000 and the amount of debtors is Rs. 40,000, the average collection period will be:",
+    "options": [
+     "60 days",
+     "45 days",
+     "73 days",
+     "75 days"
+    ],
+    "correctIndex": 2,
+    "explanation": "Debtors turnover ratio = Net sales ÷ Debtors = 2,00,000 ÷ 40,000 = 5. Average collection period = 365 ÷ 5 = 73 days."
+   },
+   {
+    "source": "U.P.P.C.S. (Pre.) 1996, 1999",
+    "question": "The more accurate guide to liquidity of a firm is provided by:",
+    "options": [
+     "The current ratio",
+     "The quick ratio",
+     "The receivable-turnover ratio",
+     "The inventory-turnover ratio"
+    ],
+    "correctIndex": 1,
+    "explanation": "The quick ratio (Liquid assets ÷ Current liabilities) is the short-term test of the liquidity of a firm, as it excludes inventory and prepaid expenses. For a one-year liquidity check the current ratio is better."
+   },
+   {
+    "source": "U.P.P.C.S. (Pre.) 1996",
+    "question": "Which one of the following is not a part of the Profitability Ratios?",
+    "options": [
+     "Operating Ratio",
+     "Rate of Return on Capital Employed",
+     "Inventory Turnover Ratio",
+     "Gross margin/Sales Ratio"
+    ],
+    "correctIndex": 2,
+    "explanation": "Inventory turnover ratio is a performance (activity) ratio and is outside the class of profitability ratios. It gives information about the mobility of the inventory in the business cycle."
+   },
+   {
+    "source": "U.P.P.C.S. (Pre.) 1996",
+    "question": "The Debt Equity ratio of a company for three consecutive years was: 1989 – 399:28; 1990 – 493:34; 1991 – 624:42. The aforesaid ratios show:",
+    "options": [
+     "That the company's financial structure is sound",
+     "That the company is capable of meeting its short-term liabilities",
+     "That the interests of creditors are not safe in the company",
+     "That the long-term liquidity of the company is improving from year to year"
+    ],
+    "correctIndex": 2,
+    "explanation": "Looking at the details, the interest of the creditors of the company is not protected, as there is a great lack of equity as compared to debts."
+   },
+   {
+    "source": "U.P.P.C.S. (Pre.) 1996",
+    "question": "You wish to invest a large sum of money in a company for a long term. Which of the following ratios will be most appropriate for you to reach a decision?",
+    "options": [
+     "Total Debts / Net Worth",
+     "Long-term Debts / Total Capitalisation",
+     "Total Debts / Total Equity Share-holdings",
+     "Sales less Cost of goods sold / Total Sales"
+    ],
+    "correctIndex": 1,
+    "explanation": "The ratio of long-term debt to gross capitalization is appropriate for taking decisions regarding long-term investment."
+   },
+   {
+    "source": "U.P.P.C.S. (Pre.) 1996, 1997",
+    "question": "A firm has total current assets of Rs. 10,000 (including inventory of Rs. 4,000), and total current liabilities of Rs. 3,000. What will be the amount of short-term bank borrowings to make the quick ratio 1.5?",
+    "options": [
+     "11,000",
+     "5,000",
+     "3,000",
+     "1,000"
+    ],
+    "correctIndex": 3,
+    "explanation": "Quick ratio = (10,000 − 4,000) ÷ (3,000 + x) = 1.5. So 4,500 + 1.5x = 6,000, x = 1,500 ÷ 1.5 = Rs. 1,000."
+   },
+   {
+    "source": "U.P.P.C.S. (Pre.) 1996",
+    "question": "For assessing the firm's efficiency of operation, we need to analyse the combined effect of which of the following pairs of ratios:",
+    "options": [
+     "Debt-to-net worth ratio and the Interest coverage ratio",
+     "The current ratio and the inventory-turnover ratio",
+     "Earnings per share and the coverage ratio",
+     "The Net Profit margin and the net operating profit rate of return"
+    ],
+    "correctIndex": 3,
+    "explanation": "For assessing the firm's efficiency of operation, we need to analyse the combined effect of the net profit margin and the net operating profit rate of return."
+   },
+   {
+    "source": "U.P.P.C.S. (Pre.) 1996",
+    "question": "Liquidity ratios are used:",
+    "options": [
+     "To assess the financial position of a firm at a point of time",
+     "To evaluate the performance of a firm over a period of time",
+     "To judge a firm's ability to meet short-term obligations",
+     "To assess the present and expected earnings of a firm"
+    ],
+    "correctIndex": 2,
+    "explanation": "Liquidity ratios are used to test the short-term liquidity and capability of the firm and to check its efficiency, giving clear information about the liquidity position of the firm."
+   },
+   {
+    "source": "U.P.P.C.S. (Pre.) 1997",
+    "question": "If trade creditors are Rs. 10,000, unpaid expenses 10% of creditors, current ratio 2:1 and stock Rs. 7,000, then the quick assets will be:",
+    "options": [
+     "10,000",
+     "12,000",
+     "14,000",
+     "15,000"
+    ],
+    "correctIndex": 3,
+    "explanation": "Unpaid expenses = 10% of 10,000 = 1,000, so current liabilities = 11,000. Current assets = 11,000 × 2 = 22,000. Quick (liquid) assets = 22,000 − 7,000 = Rs. 15,000."
+   },
+   {
+    "source": "U.P.P.C.S. (Pre.) 1997",
+    "question": "Which of the following ratios is a Primary Ratio?",
+    "options": [
+     "Current Ratio",
+     "Return on Investment (ROI)",
+     "Debt-Equity Ratio",
+     "Inventory-Turnover Ratio"
+    ],
+    "correctIndex": 0,
+    "explanation": "The current ratio is the primary ratio related to finding the liquidity of the company."
+   },
+   {
+    "source": "U.P.P.C.S. (Pre.) 1997",
+    "question": "Stock 14,000; Debtors 20,000; Stock turnover 5 times; Debtors' collection period 73 days; Creditors 20,000; Outstanding expenses 15% lenders. Current Assets Turnover will be:",
+    "options": [
+     "2.06",
+     "2.94",
+     "1.52",
+     "2.0"
+    ],
+    "correctIndex": 1,
+    "explanation": "Debtors collection period = (Average debtors ÷ Net credit sales) × 365, so 73 = 20,000 ÷ Sales × 365, giving net credit sales = 1,00,000. Current assets turnover = 1,00,000 ÷ (14,000 + 20,000) = 1,00,000 ÷ 34,000 = 2.94."
+   },
+   {
+    "source": "U.P.P.C.S. (Pre.) 1997",
+    "question": "Net profit made during the year is Rs. 5,00,000 after considering: depreciation on plant 20,000; preliminary expenses written off 10,000; transfer to general reserve 14,000; profit on sale of land 6,000. The cash from operations is:",
+    "options": [
+     "5,44,000",
+     "5,38,000",
+     "5,46,000",
+     "5,54,000"
+    ],
+    "correctIndex": 1,
+    "explanation": "Cash from operations = Net profit 5,00,000 + Depreciation 20,000 + Preliminary expenses written off 10,000 + Transfer to general reserve 14,000 = 5,44,000. Less profit on sale of land 6,000 = Rs. 5,38,000."
+   },
+   {
+    "source": "U.P.P.C.S. (Pre.) 1997, 2001",
+    "question": "Debtors 8,400; Reserve for bad debts 400; Cost of sales 36,000; Profit 40% of sales. Debt collection period is:",
+    "options": [
+     "45 days",
+     "49 days",
+     "75 days",
+     "86 days"
+    ],
+    "correctIndex": 1,
+    "explanation": "Cost of sales is 60% of sales, so net sales = 36,000 × 100 ÷ 60 = Rs. 60,000. Debt collection period = (8,400 − 400) ÷ 60,000 × 365 ≈ 49 days."
+   },
+   {
+    "source": "U.P.P.C.S. (Pre.) 1997",
+    "question": "The current ratio of a firm is 5:3. Its working capital is Rs. 20,000. The value of its current assets will be:",
+    "options": [
+     "30,000",
+     "50,000",
+     "20,000",
+     "60,000"
+    ],
+    "correctIndex": 1,
+    "explanation": "Let current assets = 5x and current liabilities = 3x. Working capital = 2x = 20,000, so x = 10,000. Current assets = 5 × 10,000 = Rs. 50,000."
+   },
+   {
+    "source": "U.P.P.C.S. (Pre.) 1997",
+    "question": "The cost of goods sold is Rs. 50,000. The value of opening and closing stock is Rs. 15,000 and Rs. 25,000 respectively. The stock turnover rate will be:",
+    "options": [
+     "2 times",
+     "2.5 times",
+     "3.3 times",
+     "1.25 times"
+    ],
+    "correctIndex": 1,
+    "explanation": "Average inventory = (15,000 + 25,000) ÷ 2 = 20,000. Stock turnover ratio = Cost of goods sold ÷ Average inventory = 50,000 ÷ 20,000 = 2.5 times."
+   },
+   {
+    "source": "PGT 2000/2004, U.P.P.C.S. (Pre.) 1998",
+    "question": "Operating performance is best measured by the rate of return on:",
+    "options": [
+     "Total Assets",
+     "Fixed Assets",
+     "Shareholders' Equity",
+     "Net capital employed"
+    ],
+    "correctIndex": 3,
+    "explanation": "Return on net capital employed is the best measure of a firm's operating performance: Profit before interest, tax and dividend ÷ Net capital employed."
+   },
+   {
+    "source": "U.P.P.C.S. (Pre.) 1998",
+    "question": "If net profit is Rs. 30,000 and non-cash charges are Rs. 10,000 then the funds from operations will be:",
+    "options": [
+     "30,000",
+     "20,000",
+     "40,000",
+     "None of the above"
+    ],
+    "correctIndex": 2,
+    "explanation": "Funds from operations = Net profit + Non-cash expenses = 30,000 + 10,000 = Rs. 40,000."
+   },
+   {
+    "source": "U.P.P.C.S. (Pre.) 1998",
+    "question": "Opening stock Rs. 2,000; Closing stock Rs. 3,000; Purchases Rs. 31,000; Debentures Rs. 5,000 (representing 1/3 of owners' capital); Sales 50,000. Capital turnover ratio will be:",
+    "options": [
+     "150%",
+     "200%",
+     "250%",
+     "333.33%"
+    ],
+    "correctIndex": 3,
+    "explanation": "Capital employed = Owner's capital + Debt capital = 10,000 + 5,000 = 15,000. Capital turnover ratio = Sales ÷ Net capital employed × 100 = 50,000 ÷ 15,000 × 100 = 333.33%."
+   },
+   {
+    "source": "U.P.P.C.S. (Pre.) 1998",
+    "question": "The most rigorous test of liquidity is:",
+    "options": [
+     "Current Ratio",
+     "Acid Test Ratio",
+     "Absolute Ratio",
+     "Stock Turnover Ratio"
+    ],
+    "correctIndex": 2,
+    "explanation": "The most rigorous test of liquidity is the absolute ratio. The ideal ratio is 0.5:1. Absolute ratio = Very liquid assets ÷ Liquid liability. It covers only marketable securities and cash available to the company."
+   },
+   {
+    "source": "U.P.P.C.S. (Pre.) 1998",
+    "question": "Rent earned by a trading company is:",
+    "options": [
+     "Operating income",
+     "Non-operating income",
+     "Current assets",
+     "Other assets"
+    ],
+    "correctIndex": 1,
+    "explanation": "Rent earned by a trading company is non-operating income."
+   },
+   {
+    "source": "U.P.P.C.S. (Pre.) 1998",
+    "question": "Which of the following items is a current liability:",
+    "options": [
+     "Arrears of wages",
+     "Redeemable preference share",
+     "Share premium",
+     "Provision for machinery depreciation"
+    ],
+    "correctIndex": 0,
+    "explanation": "Arrears of wages is a current liability because it will end on payment of the next year."
+   },
+   {
+    "source": "U.P.P.C.S. (Pre.) 1999",
+    "question": "Best indicator of the overall efficiency of a business concern is:",
+    "options": [
+     "Profitability ratio",
+     "Debt equity ratio",
+     "Acid test ratio",
+     "Current ratio"
+    ],
+    "correctIndex": 0,
+    "explanation": "The best indicator of the overall efficiency of a business concern is the profitability ratio. The major profit margin ratios are net profit ratio, gross profit ratio, return on capital etc."
+   },
+   {
+    "source": "U.P.P.C.S. (Pre.) 1999",
+    "question": "Which one of the following ratios is not a measure of financial soundness and stability of a business enterprise?",
+    "options": [
+     "Proprietary ratio",
+     "Current ratio",
+     "Turnover to capital employed ratio",
+     "Liquidity ratio"
+    ],
+    "correctIndex": 2,
+    "explanation": "Turnover to capital employed ratio is not a measure of the financial soundness and stability of a business undertaking."
+   },
+   {
+    "source": "U.P.P.C.S. (Pre.) 1999",
+    "question": "Given: Total Assets Turnover 4; Net Profits 10% (of sales); Total Assets 50,000. Net profit will be",
+    "options": [
+     "15,000",
+     "10,000",
+     "25,000",
+     "20,000"
+    ],
+    "correctIndex": 3,
+    "explanation": "Assets turnover = Sales ÷ Assets = 4, so Sales = 50,000 × 4 = 2,00,000. Net profit = 10% of 2,00,000 = ₹20,000."
+   },
+   {
+    "source": "U.P.P.C.S. (Pre.) 1999",
+    "question": "Which of the following acid test ratio can be said to be satisfactory?",
+    "options": [
+     "2:1",
+     "1:2",
+     "1:1",
+     "None of the above"
+    ],
+    "correctIndex": 2,
+    "explanation": "The satisfactory acid test ratio is 1:1."
+   },
+   {
+    "source": "U.P.P.C.S. (Pre.) 2000",
+    "question": "The liquidity position of a business enterprise is best reflected by:",
+    "options": [
+     "Current ratio and debtors turnover ratio",
+     "Quick ratio and asset turnover ratio",
+     "Current ratio and net profit ratio",
+     "Quick ratio and ROI"
+    ],
+    "correctIndex": 1,
+    "explanation": "The liquidity position of a business enterprise is best reflected by the quick ratio and asset turnover ratio."
+   },
+   {
+    "source": "U.P.P.C.S. (Pre.) 2000",
+    "question": "Given: Gross Profit Rs. 60,000; Gross Profit ratio 20%; Debtors velocity 2 months. The amount of debtors will be:",
+    "options": [
+     "Rs. 12,000",
+     "Rs. 50,000",
+     "Rs. 1,20,000",
+     "Rs. 3,00,000"
+    ],
+    "correctIndex": 1,
+    "explanation": "Sales = Gross profit ÷ Rate of gross profit × 100 = 60,000 ÷ 20 × 100 = 3,00,000. Debtors = Sales × Debtors velocity ÷ 12 = 3,00,000 × 2 ÷ 12 = Rs. 50,000."
+   },
+   {
+    "source": "U.P.P.C.S. (Pre.) 2001",
+    "question": "Return on investment is the ratio between:",
+    "options": [
+     "Net profit and capital employed",
+     "Investment and profit",
+     "Sales and capital invested",
+     "Net profit and dividend"
+    ],
+    "correctIndex": 0,
+    "explanation": "Return on investment is the ratio between net profit and capital employed."
+   },
+   {
+    "source": "U.P.P.C.S. (Pre.) 2001",
+    "question": "When the current ratio is 2:5 and the amount of current liabilities is Rs. 25,000, the amount of current assets would be:",
+    "options": [
+     "Rs. 62,500",
+     "Rs. 12,500",
+     "Rs. 10,000",
+     "None of the above"
+    ],
+    "correctIndex": 2,
+    "explanation": "Current ratio = Current assets : Current liabilities = 2 : 5. Current liabilities 5x = 25,000, so x = 5,000. Current assets = 2x = Rs. 10,000."
+   },
+   {
+    "source": "U.P.P.C.S. (Pre.) 2001",
+    "question": "Which of the following transactions would affect the current ratio?",
+    "options": [
+     "Cash received from debtors",
+     "Selling the old machine for cash",
+     "Converting the debentures into equity shares",
+     "Cash purchases"
+    ],
+    "correctIndex": 1,
+    "explanation": "Cash received from selling an old machine increases current assets, but the machine is a fixed asset and its sale does not affect current liabilities. So the current ratio will increase."
+   },
+   {
+    "source": "U.P.P.C.S. (Pre.) 2002",
+    "question": "Current liabilities do not include:",
+    "options": [
+     "Unclaimed dividends",
+     "Sundry creditors",
+     "Prepaid insurance",
+     "Bank overdraft"
+    ],
+    "correctIndex": 2,
+    "explanation": "Current liabilities are the liabilities which we have to pay in the financial year, e.g. unclaimed dividends, miscellaneous creditors and bank overdraft. Prepaid insurance is a current asset, not a liability."
+   },
+   {
+    "source": "U.P.P.C.S. (Pre.) 2002",
+    "question": "If the cost of goods sold is Rs. 1 lakh, and the value of opening and closing stock is Rs. 20,000 and Rs. 30,000 respectively, the stock turnover ratio will be:",
+    "options": [
+     "3.3 times",
+     "4 times",
+     "5 times",
+     "5.5 times"
+    ],
+    "correctIndex": 1,
+    "explanation": "Average stock = (20,000 + 30,000) ÷ 2 = 25,000. Stock turnover = Cost of sales ÷ Average stock = 1,00,000 ÷ 25,000 = 4 times."
+   },
+   {
+    "source": "U.P.P.C.S. (Pre.) 2002",
+    "question": "If current ratio is 2.5, acid test ratio is 1.5 and net working capital is Rs. 45,000, the amount of current liabilities will be:",
+    "options": [
+     "Rs. 15,000",
+     "Rs. 45,000",
+     "Rs. 30,000",
+     "Rs. 75,000"
+    ],
+    "correctIndex": 2,
+    "explanation": "Let current liabilities = 1; current assets = 2.5; working capital = 1.5 = 45,000. Current liabilities = 45,000 ÷ 1.5 = Rs. 30,000."
+   },
+   {
+    "source": "U.P.P.C.S. (Pre.) 2002",
+    "question": "Given: Current ratio 2.5; Liquid ratio 1.5; Working capital Rs. 1,20,000; Fixed assets Rs. 3,00,000. Stock in trade will be:",
+    "options": [
+     "Rs. 60,000",
+     "Rs. 80,000",
+     "Rs. 1,00,000",
+     "Rs. 1,20,000"
+    ],
+    "correctIndex": 1,
+    "explanation": "Working capital = 2.5 − 1 = 1.5 units = 1,20,000, so 1 unit (current liabilities) = 80,000. Stock = (Current ratio − Liquid ratio) × current liabilities = (2.5 − 1.5) × 80,000 = Rs. 80,000."
+   },
+   {
+    "source": "U.P.P.C.S. (Pre.) 2002",
+    "question": "Which group of the following items is the application (use) of funds? 1. Loss from operations 2. Loan from financial institutions 3. Redemption of debentures 4. Sale of fixed assets 5. Payment of dividends",
+    "options": [
+     "2, 3 and 4",
+     "1, 3 and 5",
+     "1, 2 and 4",
+     "3, 4 and 5"
+    ],
+    "correctIndex": 1,
+    "explanation": "The uses (applications) of funds include loss from operations, redemption of debentures and payment of dividends."
+   },
+   {
+    "source": "U.P.P.C.S. (Pre.) 2002",
+    "question": "An acid test ratio is:",
+    "options": [
+     "Current assets / Current liabilities",
+     "Quick assets / Current liabilities",
+     "Current liabilities / Current Assets",
+     "Fixed assets / Liabilities"
+    ],
+    "correctIndex": 1,
+    "explanation": "Acid test ratio = Quick assets ÷ Current liabilities. Current liabilities are obligations that have to be paid in a short period (the next twelve months), such as business creditors, bills payable, bank overdrafts, short-term loans and unpaid expenses."
+   },
+   {
+    "source": "U.P.P.C.S. (Pre.) 2000/2002",
+    "question": "If cash sales is Rs. 40,000; credit sales Rs. 80,000 and the amount of debtors Rs. 20,000, the average collection period will be (consider 360 days in a year):",
+    "options": [
+     "180 days",
+     "120 days",
+     "90 days",
+     "60 days"
+    ],
+    "correctIndex": 2,
+    "explanation": "Average collection period = Debtors ÷ Total credit sales × 360 = 20,000 ÷ 80,000 × 360 = 90 days."
+   },
+   {
+    "source": "U.P.P.C.S. (Pre.) 2003, 2006",
+    "question": "If the cost of goods sold is Rs. 1,00,000, value of opening stock is Rs. 20,000 and closing stock is Rs. 80,000, then the stock turnover ratio will be:",
+    "options": [
+     "5 times",
+     "4 times",
+     "2 times",
+     "1 times"
+    ],
+    "correctIndex": 2,
+    "explanation": "Average stock = (20,000 + 80,000) ÷ 2 = 50,000. Stock turnover ratio = 1,00,000 ÷ 50,000 = 2 times."
+   },
+   {
+    "source": "U.P.P.C.S. (Pre.) 1998/2004",
+    "question": "'High ratio, low profitability' is applicable to:",
+    "options": [
+     "Net profit ratio",
+     "Rate of return on investment",
+     "Operating ratio",
+     "Stock turnover ratio"
+    ],
+    "correctIndex": 2,
+    "explanation": "Operating ratio = (Cost of goods sold + Operating expenses) ÷ Sales × 100. The higher this ratio, the lower is the profitability, since most of each rupee of sales is being spent."
+   },
+   {
+    "source": "U.P.P.C.S. (Pre.) 2003, 2004",
+    "question": "Which one of the following ratios is the indicator of the long term solvency of a firm?",
+    "options": [
+     "Acid test ratio",
+     "Debt-equity ratio",
+     "Times interest earned ratio",
+     "Return on investment ratio"
+    ],
+    "correctIndex": 1,
+    "explanation": "The debt equity ratio measures the long-term financial position of a business entity. It establishes the relationship between long-term debt and ownership funds. Debt equity ratio = Long-term debt ÷ Shareholders' fund."
+   },
+   {
+    "source": "U.P.P.C.S. (Pre.) 2004",
+    "question": "The overall performance of a business unit is measured by:",
+    "options": [
+     "Return on investment",
+     "Inventory turnover ratio",
+     "Net profit to sales ratio",
+     "Proprietary ratio"
+    ],
+    "correctIndex": 0,
+    "explanation": "Return on capital employed (investment) is an important measure of profitability in relation to evaluating the overall performance of the organization. It shows how the management has used the investments made by the business."
+   },
+   {
+    "source": "U.P.P.C.S. (Pre.) 2004",
+    "question": "Current ratio 2.7:1, Quick Ratio 1.8:1, current liabilities Rs. 60,000. Value of stock will be:",
+    "options": [
+     "Rs. 60,000",
+     "Rs. 54,000",
+     "Rs. 1,08,000",
+     "Rs. 1,62,000"
+    ],
+    "correctIndex": 1,
+    "explanation": "Current assets = 2.7 × 60,000 = 1,62,000. Liquid assets = 1.8 × 60,000 = 1,08,000. Stock = 1,62,000 − 1,08,000 = Rs. 54,000."
+   },
+   {
+    "source": "U.P.P.C.S. (Pre.) 2004",
+    "question": "When working capital is Rs. 60,000 and current ratio is 3:1 the current liabilities will be:",
+    "options": [
+     "Rs. 30,000",
+     "Rs. 80,000",
+     "Rs. 90,000",
+     "Rs. 1,20,000"
+    ],
+    "correctIndex": 0,
+    "explanation": "Let current liabilities = y, so current assets = 3y. Working capital = 3y − y = 2y = 60,000, so y = Rs. 30,000."
+   },
+   {
+    "source": "U.P.P.C.S. (Pre.) 2004",
+    "question": "If the operating ratio is 91.5, operating profit ratio will be:",
+    "options": [
+     "159.5%",
+     "8.5%",
+     "9.15%",
+     "None of the above"
+    ],
+    "correctIndex": 1,
+    "explanation": "Operating profit ratio = 100 − Operating ratio = 100 − 91.5 = 8.5%."
+   },
+   {
+    "source": "U.P.P.C.S. (Pre.) 2005",
+    "question": "If Return On Investment (ROI) is 10% and investment turnover is 5, then net profit margin will be:",
+    "options": [
+     "0.5%",
+     "2.0%",
+     "20.0%",
+     "50.0%"
+    ],
+    "correctIndex": 1,
+    "explanation": "ROI = Net profit margin × Investment turnover. 10% = Margin × 5, so net profit margin = 2%."
+   }
+  ]
+ }
+]
