@@ -1,6 +1,6 @@
 import { clearToken, getToken } from './auth.js';
 
-const BASE_URL = (import.meta.env.VITE_API_URL || 'http://localhost:5000/api').replace(/\/$/, '');
+const BASE_URL = (import.meta.env.VITE_API_URL || import.meta.env.VITE_APIURL || 'http://localhost:5000/api').replace(/\/$/, '');
 const REQUEST_TIMEOUT_MS = 15000;
 
 export class ApiError extends Error {
