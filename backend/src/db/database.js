@@ -6,11 +6,16 @@ import { env } from '../config/env.js';
 
 function createDbClient() {
   if (env.tursoDatabaseUrl) {
+    if (!env.tursoAuthToken) {
+      console.warn('⚠️ WARNING: TURSO_DATABASE_URL is set, but TURSO_AUTH_TOKEN is missing or empty!');
+    }
+    console.log(`Connecting to Turso database: ${env.tursoDatabaseUrl}`);
     return createClient({
       url: env.tursoDatabaseUrl,
       authToken: env.tursoAuthToken || undefined,
     });
   }
+  console.log(`Using local SQLite database at: ${env.dbPath}`);
   fs.mkdirSync(path.dirname(env.dbPath), { recursive: true });
   return createClient({
     url: pathToFileURL(env.dbPath).toString(),
