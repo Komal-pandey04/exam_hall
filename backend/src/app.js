@@ -16,6 +16,10 @@ export function createApp() {
       origin(origin, callback) {
         // Allow same-machine tools (curl, Postman) that send no Origin header.
         if (!origin || env.clientUrls.includes(origin)) return callback(null, true);
+        try {
+          const { hostname } = new URL(origin);
+          if (hostname.endsWith('.vercel.app') || hostname === 'localhost') return callback(null, true);
+        } catch {}
         return callback(null, false);
       },
       allowedHeaders: ['Content-Type', 'Authorization', 'x-admin-key'],
