@@ -7,8 +7,8 @@ automatic submission, a score report and a full answer review.
 | Layer    | Tech                                                  |
 |----------|-------------------------------------------------------|
 | Frontend | React 18, Vite 6, Tailwind CSS 4, React Router 6, lucide-react |
-| Backend  | Node.js (>= 18.18), Express 4, better-sqlite3, helmet, cors, dotenv |
-| Database | **SQLite** (single file, created and seeded automatically) |
+| Backend  | Node.js (>= 18.18), Express 4, @libsql/client, helmet, cors, dotenv |
+| Database | **SQLite / libSQL** (local file or free hosted Turso cloud database) |
 
 ## Run locally
 
@@ -45,7 +45,9 @@ Tests: `cd backend && npm test` (scoring logic) and `cd frontend && npm test` (p
 |------|---------|---------|
 | `PORT` | `5000` | Port (Render sets this itself) |
 | `CLIENT_URL` | `http://localhost:5173` | Allowed frontend origin(s) for CORS, comma-separated, no trailing slash |
-| `DB_PATH` | `./data/examhall.db` | SQLite file location |
+| `DB_PATH` | `./data/examhall.db` | Local SQLite file location (used if `TURSO_DATABASE_URL` is omitted) |
+| `TURSO_DATABASE_URL` | `libsql://examhall-user.turso.io` | Turso cloud database URL (for free persistent hosting on Render) |
+| `TURSO_AUTH_TOKEN` | `eyJhb...` | Turso authentication token |
 | `ADMIN_KEY` | long random string | Password for the admin panel (`x-admin-key` header) |
 
 `frontend/.env`
@@ -135,14 +137,15 @@ Admin routes need the header `x-admin-key: <ADMIN_KEY>`.
    * `CLIENT_URL` = your Vercel URL, e.g. `https://examhall.vercel.app` (no trailing slash; add comma-separated extras if needed)
    * `ADMIN_KEY` = a long random string
    * `NODE_ENV` = `production`
-   * `DB_PATH` = `/var/data/examhall.db` **if you attach a disk** (see below)
+   * `TURSO_DATABASE_URL` = your Turso database URL (e.g. `libsql://examhall-user.turso.io`)
+   * `TURSO_AUTH_TOKEN` = your Turso auth token
    * Do not set `PORT` — Render provides it.
 5. Deploy, then check `https://<service>.onrender.com/api/health`.
 
-> **SQLite on Render:** the free filesystem is wiped on every deploy/restart. The questions are re-seeded automatically, so
-> the app always works, but stored **results are lost**. To keep them, use a paid instance and add a **Disk** mounted at
-> `/var/data`, with `DB_PATH=/var/data/examhall.db`. Admin edits to questions are also kept only with a disk.
-> Free instances also sleep after inactivity, so the first request can take ~30–60 s.
+> **Free Persistent Data with Turso (Recommended):** Render's free filesystem is wiped on every restart/redeploy.
+> By connecting to a free [Turso](https://turso.tech) database via `TURSO_DATABASE_URL` and `TURSO_AUTH_TOKEN`,
+> all tests, user accounts, and test results are stored permanently outside Render at **zero cost** (no paid disk needed!).
+> Free instances still sleep after inactivity, so the initial wakeup can take ~30–60 s.
 
 ### 2. Frontend on Vercel
 
@@ -166,7 +169,7 @@ frontend whenever you change `VITE_API_URL`, because Vite bakes it in at build t
 | `better-sqlite3` install fails | Use Node 18.18+ (20 or 22 recommended); delete `node_modules` and reinstall |
 | Admin says "Admin access is disabled" | Set `ADMIN_KEY` in `backend/.env` and restart |
 | 404 on refresh in production | Make sure `frontend/vercel.json` is deployed |
-| Results disappear on Render | Free filesystem is ephemeral — attach a Disk and set `DB_PATH` |
+| Results disappear on Render | Provide `TURSO_DATABASE_URL` and `TURSO_AUTH_TOKEN` in Render Environment variables |
 | Port 5000 busy (macOS AirPlay) | Change `PORT` and `VITE_API_URL` |
 
 ## Content notes
@@ -184,4 +187,4 @@ students are never marked wrongly. Extraction stopped at page 50 as requested; m
 - **Timer:** the exam header shows time left and time elapsed.
 - New env vars: `SESSION_DAYS`, `MOCK_DURATION_MINUTES` (see `backend/.env.example`).
 - Answer-key caveats are listed in `backend/KEY_REVIEW.md`.
-- **Render:** the free disk is ephemeral – users, login history and results are lost on redeploy unless you attach a persistent disk and set `DB_PATH=/var/data/examhall.db`.
+- **Render:** the free disk is ephemeral – to keep users, login history and results permanently across redeploys without paying for a disk, connect a free Turso database via `TURSO_DATABASE_URL` and `TURSO_AUTH_TOKEN`.

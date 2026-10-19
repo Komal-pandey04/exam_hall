@@ -14,16 +14,18 @@ const { db } = await import('./db/database.js');
 
 let server;
 let base;
-before(() => {
-  seedIfEmpty();
-  seedMockTests();
+before(async () => {
+  await seedIfEmpty();
+  await seedMockTests();
   server = createApp().listen(0);
   base = `http://127.0.0.1:${server.address().port}/api`;
 });
-after(() => {
+after(async () => {
   server.close();
   db.close();
-  fs.rmSync(dir, { recursive: true, force: true });
+  try {
+    fs.rmSync(dir, { recursive: true, force: true, maxRetries: 5, retryDelay: 100 });
+  } catch {}
 });
 
 const call = async (method, url, body, token) => {
@@ -37,7 +39,7 @@ const call = async (method, url, body, token) => {
 };
 
 test('seeds 25 mock tests with exactly 100 four-option questions each, and is idempotent', async () => {
-  assert.equal(seedMockTests(), 0);
+  assert.equal(await seedMockTests(), 0);
   const { body } = await call('GET', '/tests');
   const mocks = body.tests.filter((t) => t.category === 'mock');
   assert.equal(mocks.length, 25);
@@ -48,9 +50,12 @@ test('seeds 25 mock tests with exactly 100 four-option questions each, and is id
     assert.equal(t.negativeMarking, true);
     assert.equal(t.negativeMarks, 0.25);
   }
-  const rows = db.prepare('SELECT options FROM questions WHERE test_id IN (SELECT id FROM tests WHERE category = ?)').all('mock');
-  assert.equal(rows.length, 2500);
-  assert.ok(rows.every((r) => JSON.parse(r.options).length === 4));
+  const rowsRes = await db.execute({
+    sql: 'SELECT options FROM questions WHERE test_id IN (SELECT id FROM tests WHERE category = ?)',
+    args: ['mock'],
+  });
+  assert.equal(rowsRes.rows.length, 2500);
+  assert.ok(rowsRes.rows.every((r) => JSON.parse(r.options).length === 4));
 });
 
 test('signup, login, wrong password and logout are saved in login history', async () => {
@@ -68,9 +73,14 @@ test('signup, login, wrong password and logout are saved in login history', asyn
   const h = await call('GET', '/auth/history', null, again.body.token);
   const events = h.body.history.map((e) => e.event).reverse();
   assert.deepEqual(events, ['signup', 'login', 'login_failed', 'login', 'logout', 'login']);
-  const stored = db.prepare('SELECT password_hash FROM users').get().password_hash;
+  const storedRes = await db.execute('SELECT password_hash FROM users');
+  const stored = storedRes.rows[0].password_hash;
   assert.match(stored, /^scrypt\$/);
-  assert.equal(db.prepare('SELECT COUNT(*) c FROM sessions WHERE token_hash = ?').get(again.body.token).c, 0); // only hashes stored
+  const sessRes = await db.execute({
+    sql: 'SELECT COUNT(*) c FROM sessions WHERE token_hash = ?',
+    args: [again.body.token],
+  });
+  assert.equal(Number(sessRes.rows[0].c), 0); // only hashes stored
 });
 
 test('login is rate limited after repeated failures', async () => {
@@ -95,10 +105,14 @@ test('attempts need a login; mock test scoring is +1 / -0.25 / 0 out of 100 and 
   assert.equal(detail.questions.length, 100);
   assert.ok(detail.questions.every((q) => !('correctIndex' in q)));
 
-  const keys = db.prepare('SELECT id, correct_index FROM questions WHERE test_id = ? ORDER BY position').all(mock3.id);
+  const keysRes = await db.execute({
+    sql: 'SELECT id, correct_index FROM questions WHERE test_id = ? ORDER BY position',
+    args: [mock3.id],
+  });
+  const keys = keysRes.rows;
   const answers = {};
-  keys.slice(0, 60).forEach((k) => (answers[k.id] = k.correct_index)); // 60 right
-  keys.slice(60, 90).forEach((k) => (answers[k.id] = (k.correct_index + 1) % 4)); // 30 wrong
+  keys.slice(0, 60).forEach((k) => (answers[k.id] = Number(k.correct_index))); // 60 right
+  keys.slice(60, 90).forEach((k) => (answers[k.id] = (Number(k.correct_index) + 1) % 4)); // 30 wrong
   // 10 unattempted
   const sub = await call('POST', '/results', { attemptId: start.attempt.id, answers, timeSpent: {} }, token);
   assert.equal(sub.status, 201);
@@ -117,7 +131,11 @@ test('attempts need a login; mock test scoring is +1 / -0.25 / 0 out of 100 and 
   // a different mock test is independent
   const s4 = await call('POST', '/attempts', { testId: mock4.id, mode: 'exam' }, token);
   const perfect = {};
-  db.prepare('SELECT id, correct_index FROM questions WHERE test_id = ?').all(mock4.id).forEach((k) => (perfect[k.id] = k.correct_index));
+  const keys4Res = await db.execute({
+    sql: 'SELECT id, correct_index FROM questions WHERE test_id = ?',
+    args: [mock4.id],
+  });
+  keys4Res.rows.forEach((k) => (perfect[k.id] = Number(k.correct_index)));
   const r4 = (await call('POST', '/results', { attemptId: s4.body.attempt.id, answers: perfect }, token)).body.result;
   assert.equal(r4.score, 100);
 

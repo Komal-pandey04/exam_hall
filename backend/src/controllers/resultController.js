@@ -10,19 +10,19 @@ import { badRequest } from '../utils/httpError.js';
  * POST /api/results – idempotent. Submitting the same attempt twice
  * (double click, retry after a network error) returns the stored result.
  */
-export const submitResult = (req, res) => {
+export const submitResult = async (req, res) => {
   const { attemptId, answers, timeSpent, autoSubmitted } = req.body ?? {};
   if (typeof attemptId !== 'string' || !attemptId) throw badRequest('attemptId is required.');
 
-  const attempt = attemptModel.findById(attemptId);
+  const attempt = await attemptModel.findById(attemptId);
   if (!attempt || attempt.userId !== req.user.id) throw notFound('Attempt');
 
-  const existing = resultModel.findByAttempt(attemptId);
+  const existing = await resultModel.findByAttempt(attemptId);
   if (existing) return res.json({ result: existing, duplicate: true });
 
-  const test = testModel.findById(attempt.testId);
+  const test = await testModel.findById(attempt.testId);
   if (!test) throw notFound('Test');
-  const questions = questionModel.listByTest(test.id, test);
+  const questions = await questionModel.listByTest(test.id, test);
 
   const cleanAnswers = sanitizeAnswers(questions, answers);
   const cleanTimes = sanitizeTimes(questions, timeSpent, test.durationMinutes * 60 + 60);
@@ -52,7 +52,7 @@ export const submitResult = (req, res) => {
   const finishedAt = Math.min(Date.now(), attempt.endsAt);
   const timeTaken = Math.max(0, Math.round((finishedAt - attempt.startedAt) / 1000));
 
-  const result = resultModel.save(attempt, test, calc, {
+  const result = await resultModel.save(attempt, test, calc, {
     answers: cleanAnswers,
     review,
     timeTaken,
@@ -61,11 +61,11 @@ export const submitResult = (req, res) => {
   res.status(201).json({ result, duplicate: false });
 };
 
-export const getResult = (req, res) => {
-  const result = resultModel.findByAttempt(req.params.attemptId);
+export const getResult = async (req, res) => {
+  const result = await resultModel.findByAttempt(req.params.attemptId);
   if (!result || result.userId !== req.user.id) throw notFound('Result');
   res.json({ result });
 };
 
 /** The signed-in user's saved results (summary only, newest first). */
-export const listMyResults = (req, res) => res.json({ results: resultModel.listByUser(req.user.id) });
+export const listMyResults = async (req, res) => res.json({ results: await resultModel.listByUser(req.user.id) });

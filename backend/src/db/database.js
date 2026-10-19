@@ -1,16 +1,28 @@
 import fs from 'node:fs';
 import path from 'node:path';
-import Database from 'better-sqlite3';
+import { pathToFileURL } from 'node:url';
+import { createClient } from '@libsql/client';
 import { env } from '../config/env.js';
 
-fs.mkdirSync(path.dirname(env.dbPath), { recursive: true });
+function createDbClient() {
+  if (env.tursoDatabaseUrl) {
+    return createClient({
+      url: env.tursoDatabaseUrl,
+      authToken: env.tursoAuthToken || undefined,
+    });
+  }
+  fs.mkdirSync(path.dirname(env.dbPath), { recursive: true });
+  return createClient({
+    url: pathToFileURL(env.dbPath).toString(),
+  });
+}
 
-export const db = new Database(env.dbPath);
-db.pragma('journal_mode = WAL');
-db.pragma('foreign_keys = ON');
+export const db = createDbClient();
 
-export function initSchema() {
-  db.exec(`
+export async function initSchema() {
+  await db.execute('PRAGMA foreign_keys = ON');
+
+  await db.executeMultiple(`
     CREATE TABLE IF NOT EXISTS tests (
       id                 INTEGER PRIMARY KEY AUTOINCREMENT,
       title              TEXT    NOT NULL,
@@ -97,17 +109,19 @@ export function initSchema() {
   `);
 
   // Lightweight migrations for databases created by earlier versions.
-  addColumn('tests', 'category', "TEXT NOT NULL DEFAULT 'practice'");
-  addColumn('tests', 'mock_number', 'INTEGER');
-  addColumn('attempts', 'user_id', 'INTEGER REFERENCES users(id) ON DELETE SET NULL');
-  addColumn('results', 'user_id', 'INTEGER REFERENCES users(id) ON DELETE SET NULL');
-  db.exec(`
+  await addColumn('tests', 'category', "TEXT NOT NULL DEFAULT 'practice'");
+  await addColumn('tests', 'mock_number', 'INTEGER');
+  await addColumn('attempts', 'user_id', 'INTEGER REFERENCES users(id) ON DELETE SET NULL');
+  await addColumn('results', 'user_id', 'INTEGER REFERENCES users(id) ON DELETE SET NULL');
+
+  await db.executeMultiple(`
     CREATE UNIQUE INDEX IF NOT EXISTS idx_tests_mock_number ON tests(mock_number) WHERE mock_number IS NOT NULL;
     CREATE INDEX IF NOT EXISTS idx_results_user ON results(user_id, id);
   `);
 }
 
-function addColumn(table, column, definition) {
-  const exists = db.prepare(`PRAGMA table_info(${table})`).all().some((c) => c.name === column);
-  if (!exists) db.exec(`ALTER TABLE ${table} ADD COLUMN ${column} ${definition}`);
+async function addColumn(table, column, definition) {
+  const res = await db.execute(`PRAGMA table_info(${table})`);
+  const exists = res.rows.some((c) => c.name === column);
+  if (!exists) await db.execute(`ALTER TABLE ${table} ADD COLUMN ${column} ${definition}`);
 }

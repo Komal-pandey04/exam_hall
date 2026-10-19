@@ -10,6 +10,8 @@ export const env = {
   port: Number(process.env.PORT) || 5000,
   clientUrls,
   dbPath: path.resolve(process.env.DB_PATH || './data/examhall.db'),
+  tursoDatabaseUrl: process.env.TURSO_DATABASE_URL || '',
+  tursoAuthToken: process.env.TURSO_AUTH_TOKEN || '',
   adminKey: process.env.ADMIN_KEY || '',
   sessionDays: Number(process.env.SESSION_DAYS) || 30,
   mockDurationMinutes: Number(process.env.MOCK_DURATION_MINUTES) || 120,
